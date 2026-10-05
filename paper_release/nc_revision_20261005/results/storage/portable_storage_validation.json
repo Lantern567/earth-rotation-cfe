@@ -1,0 +1,32 @@
+{
+  "portable_checks": [
+    {
+      "output": "storage_smoke",
+      "dispatch_rows": 4,
+      "countries": [
+        "US"
+      ],
+      "source_root_in_package": true,
+      "input_jobs_identical": 208,
+      "input_array_max_error": 0.0,
+      "cost_parameter_max_error": 0.0,
+      "dispatch_max_lcoe_error_usd_per_mwh": 0.0
+    },
+    {
+      "output": "storage_package_check",
+      "dispatch_rows": 4,
+      "countries": [
+        "DE"
+      ],
+      "source_root_in_package": true,
+      "input_jobs_identical": 208,
+      "input_array_max_error": 0.0,
+      "cost_parameter_max_error": 0.0,
+      "dispatch_max_lcoe_error_usd_per_mwh": 0.0
+    }
+  ],
+  "used_external_scientific_input_paths": false,
+  "commands": [
+    "python scripts/storage/run_storage_revision.py --mode reliability --countries DE --workers 1 --output-dir outputs/storage_package_check"
+  ]
+}

@@ -1,0 +1,4 @@
+added_network_budget_ms_scenario,illustrative_ttft_total_budget_ms,engine_queue_prefill_allowance_ms_assumed,handshake_and_jitter_reserve_ms_assumed,illustrative_tbt_budget_ms,tbt_measured_for_this_trace,network_tail_measured_for_this_trace,empirical_ttft_guarantee,empirical_tbt_guarantee,streaming_assumption
+0,200,100,100,100,False,False,False,False,"single destination per full response; constant path propagation affects start, while jitter and generation determine inter-token gaps"
+200,400,100,100,100,False,False,False,False,"single destination per full response; constant path propagation affects start, while jitter and generation determine inter-token gaps"
+500,700,100,100,100,False,False,False,False,"single destination per full response; constant path propagation affects start, while jitter and generation determine inter-token gaps"

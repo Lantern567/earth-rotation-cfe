@@ -1,0 +1,16 @@
+hardware,quantity,value,source,locator,meaning
+H100_NVL,idle GPU power W,59.0,https://arxiv.org/html/2604.09048v1,Figure 5,pre-experiment board-level mean across runs; not facility power
+H100_NVL,medium model class low-load GPU mean power W,94.7,https://arxiv.org/html/2604.09048v1,Table 5,mean across models/experiments at .017 requests/s; not a particular Azure model
+H100_NVL,medium model class high-load GPU mean power W,165.9,https://arxiv.org/html/2604.09048v1,Table 6,mean across models/experiments at .3 requests/s; not measured saturation capacity
+H100_NVL,mean of per-experiment TTFT p95 ms in medium class,39.0,https://arxiv.org/html/2604.09048v1,Table 6,average of percentiles across experiments/models; cannot certify trace tail
+A100_SXM4,idle GPU power W,56.0,https://arxiv.org/html/2604.09048v1,Figure 5,pre-experiment board-level mean across runs; not facility power
+A100_SXM4,medium model class low-load GPU mean power W,70.7,https://arxiv.org/html/2604.09048v1,Table 5,mean across models/experiments at .017 requests/s; not a particular Azure model
+A100_SXM4,medium model class high-load GPU mean power W,172.9,https://arxiv.org/html/2604.09048v1,Table 6,mean across models/experiments at .3 requests/s; not measured saturation capacity
+A100_SXM4,mean of per-experiment TTFT p95 ms in medium class,48.0,https://arxiv.org/html/2604.09048v1,Table 6,average of percentiles across experiments/models; cannot certify trace tail
+L4,idle GPU power W,17.0,https://arxiv.org/html/2604.09048v1,Figure 5,pre-experiment board-level mean across runs; not facility power
+L4,medium model class low-load GPU mean power W,38.8,https://arxiv.org/html/2604.09048v1,Table 5,mean across models/experiments at .017 requests/s; not a particular Azure model
+L4,medium model class high-load GPU mean power W,68.7,https://arxiv.org/html/2604.09048v1,Table 6,mean across models/experiments at .3 requests/s; not measured saturation capacity
+L4,mean of per-experiment TTFT p95 ms in medium class,203.0,https://arxiv.org/html/2604.09048v1,Table 6,average of percentiles across experiments/models; cannot certify trace tail
+different two-H100 node,vLLM initialization total energy J,27209.42,https://hotcarbon.org/assets/2025/paper-11.pdf,Table 1,system total; separate restart sensitivity
+different two-H100 node,vLLM 8B model loading total energy J,7184.06,https://hotcarbon.org/assets/2025/paper-11.pdf,Table 1,system total; not the same hardware/power curve as the accounting experiment
+different two-H100 node,initialization plus 8B loading time s,60.03,https://hotcarbon.org/assets/2025/paper-11.pdf,Table 1,predictive prewarming required; no reactive cold start in admission path

@@ -1,0 +1,38 @@
+{
+  "dispatch": "frozen original GPU dispatch; prices do not change routing or capacities",
+  "cost": "all-site modeled GPU kWh times assumed volumetric site price; excludes PPA contract rights, clean procurement terms, taxes, egress, hardware reservation and other charges",
+  "fee": "(v * avoided uncovered MWh - modeled volumetric cost change) / routed request equivalents; v is a hypothetical shadow value; a negative threshold means this selected pricing/value scenario provides no positive fee margin",
+  "observed_tariffs": false,
+  "prices": {
+    "uniform_005": {
+      "US": 0.05,
+      "DE": 0.05,
+      "JP": 0.05
+    },
+    "uniform_010": {
+      "US": 0.1,
+      "DE": 0.1,
+      "JP": 0.1
+    },
+    "uniform_020": {
+      "US": 0.2,
+      "DE": 0.2,
+      "JP": 0.2
+    },
+    "site_ascending": {
+      "US": 0.05,
+      "DE": 0.1,
+      "JP": 0.2
+    },
+    "site_descending": {
+      "US": 0.2,
+      "DE": 0.1,
+      "JP": 0.05
+    }
+  },
+  "assumed_shadow_values_usd_per_mwh": [
+    30,
+    100,
+    200
+  ]
+}

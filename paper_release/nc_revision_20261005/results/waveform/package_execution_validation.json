@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "verification_date": "2026-10-02",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5",
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "scipy": "1.16.2",
+    "pyarrow": "21.0.0",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.3",
+    "pillow": "11.3.0"
+  },
+  "hourly_input_sha256": {
+    "country_hourly_demand.csv.gz": "a6a352bc9df3e71cc32fbb7da4919c948c72c0a01f27598849ba3f803e60dc12",
+    "site_hourly_cf.parquet": "911a2e9bd7e88752075edaf8d825152cb02e0ac877df1504627bcbd6ad49af80",
+    "country_hourly_cf.parquet": "7d6446125ca60f76e8f5e29f7f5060929d974fbce1050077b4535dcd5d92ee08",
+    "country_capacity.csv": "dffa4ae1a2e005efa2a0271e73e1fc73d65f62499f0bf6da07d840e228a42d9c",
+    "country_meta.csv": "cb26abfe74728b4133211482c03ca7f6957cf26fc74d72016a3e7bb3bacdd1cd",
+    "burstgpt_diurnal_fit_v2.csv": "6e6807a12fdeae0f0f2c63ee4291b7812111f1ed9044128f3cf476f0bb6589f5",
+    "normalization_windows.csv": "e14b441860ae7d5a6ed00a2e72cb795b4978414efca2d1f0abfc1996e63df331"
+  },
+  "result_row_counts": {
+    "objective_results.csv": 104,
+    "lp_certificates.csv": 312,
+    "normalized_separation_certificates.csv": 208,
+    "r2_waveform_grid.csv": 3744,
+    "business_consumer_country_results.csv": 520,
+    "business_consumer_key_country_grid.csv": 1080,
+    "window_weight_country_results.csv": 1040,
+    "window_normalization_audit.csv": 1248
+  },
+  "country_certificate_npz_count": 104,
+  "explicit_hourly_separating_vectors_present": true,
+  "package_default_paths_full_grid_execution": {
+    "grid_rows": 3744,
+    "grid_max_absolute_difference": {
+      "uncovered_share": 3.0531133177191805e-16,
+      "uncovered_share_baseline": 2.220446049250313e-16,
+      "migrated_share": 3.3306690738754696e-16
+    },
+    "flow_tau100_max_absolute_difference": 1.3877787807814457e-15,
+    "flow_tau150_max_absolute_difference": 1.429412144204889e-15,
+    "flow_tau200_max_absolute_difference": 5.329070518200751e-15,
+    "flow_tau500_max_absolute_difference": 5.578870698741412e-15,
+    "followsun_max_absolute_difference": {
+      "x_peak": 0.0,
+      "y_solar": 1.7763568394002505e-14,
+      "reach": 1.7763568394002505e-14,
+      "phase_lag": 0.0,
+      "migrated_share": 3.3306690738754696e-16
+    }
+  },
+  "package_default_normalization_windows_smoke_rows": 30,
+  "package_default_normalization_windows_smoke_countries": 3,
+  "figures": {
+    "FigS6_conditional_certificate": {
+      "pixels": [
+        1816,
+        1682
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_bytes": 56945
+    },
+    "FigS7_demand_and_window_sensitivity": {
+      "pixels": [
+        1823,
+        1837
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_bytes": 50188
+    }
+  }
+}

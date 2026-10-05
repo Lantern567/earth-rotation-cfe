@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "6C7C48A9F1E171BCA0B6583CE2ABCBC2346EF1839395DC22E1E1B6737A3EAB27",
+    "Path": "main_submitted.docx"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "21FED4F819B21F6AD3FE67515ADE3A43EA5841CDDF9B8C409C1E5AE25433FAAD",
+    "Path": "si_submitted.docx"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8CBCF3622CBDEE591D61E2E893821F6DC201B70764B4D05380B24377F80BBB17",
+    "Path": "Response_template.docx"
+  }
+]

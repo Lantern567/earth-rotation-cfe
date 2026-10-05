@@ -1,0 +1,106 @@
+iso2,country_long,lat,lon,region_code,continent_block
+AE,United Arab Emirates,24.754,55.368,AS,Asia
+AF,Afghanistan,31.647,65.794,AS,Asia
+AQ,Antarctica,-77.843,166.727,AN,Other
+AR,Argentina,-29.598,-66.322,SA,Americas
+AT,Austria,48.085,16.843,EU,EurAfrMENA
+AU,Australia,-31.773,144.154,OC,Oceania
+BD,Bangladesh,20.982,92.256,AS,Asia
+BE,Belgium,51.542,3.208,EU,EurAfrMENA
+BF,Burkina Faso,12.307,-1.637,AF,EurAfrMENA
+BG,Bulgaria,43.005,26.619,EU,EurAfrMENA
+BH,Bahrain,26.1,50.58,AS,Asia
+BI,Burundi,-3.42,30.03,AF,EurAfrMENA
+BO,Bolivia,-20.75,-67.65,SA,Americas
+BR,Brazil,-10.964,-41.076,SA,Americas
+BY,Belarus,53.38,31.385,EU,EurAfrMENA
+CA,Canada,46.296,-82.375,NA,Americas
+CH,Switzerland,47.384,7.299,EU,EurAfrMENA
+CL,Chile,-26.329,-70.155,SA,Americas
+CN,China,38.61,108.792,AS,Asia
+CO,Colombia,9.69,-73.765,SA,Americas
+CR,Costa Rica,10.58,-84.505,NA,Americas
+CU,Cuba,21.493,-77.643,NA,Americas
+CV,Cape Verde,14.91,-23.544,AF,EurAfrMENA
+CZ,Czech Republic,49.636,15.394,EU,EurAfrMENA
+DE,Germany,52.577,10.674,EU,EurAfrMENA
+DK,Denmark,55.6,10.241,EU,EurAfrMENA
+DO,Dominican Republic,18.764,-71.027,NA,Americas
+DZ,Algeria,34.769,4.173,AF,EurAfrMENA
+EC,Ecuador,0.025,-78.236,SA,Americas
+EE,Estonia,58.806,23.591,EU,EurAfrMENA
+EG,Egypt,26.551,32.667,AF,EurAfrMENA
+ES,Spain,40.031,-3.72,EU,EurAfrMENA
+ET,Ethiopia,8.591,39.249,AF,EurAfrMENA
+FI,Finland,65.563,24.52,EU,EurAfrMENA
+FJ,Fiji,-18.113,177.506,OC,Oceania
+FR,France,46.853,2.152,EU,EurAfrMENA
+GB,United Kingdom,53.821,-2.227,EU,EurAfrMENA
+GF,French Guiana,4.894,-52.501,SA,Americas
+GH,Ghana,5.29,-0.95,AF,EurAfrMENA
+GR,Greece,37.756,22.79,EU,EurAfrMENA
+GT,Guatemala,14.165,-90.438,NA,Americas
+HN,Honduras,13.474,-87.361,NA,Americas
+HU,Hungary,47.268,19.482,EU,EurAfrMENA
+ID,Indonesia,-2.0,118.0,AS,Asia
+IE,Ireland,52.679,-8.248,EU,EurAfrMENA
+IL,Israel,31.223,34.764,AS,Asia
+IN,India,19.557,76.129,AS,Asia
+IR,Iran,34.942,51.597,AS,Asia
+IT,Italy,41.189,14.277,EU,EurAfrMENA
+JM,Jamaica,17.928,-77.458,NA,Americas
+JO,Jordan,31.45,36.182,AS,Asia
+JP,Japan,35.764,136.251,AS,Asia
+KE,Kenya,2.189,37.175,AF,EurAfrMENA
+KH,Cambodia,11.074,106.073,AS,Asia
+KR,South Korea,34.738,127.036,AS,Asia
+KW,Kuwait,28.89,47.71,AS,Asia
+KZ,Kazakhstan,42.713,70.822,AS,Asia
+LC,Saint Lucia,13.738,-60.961,NA,Americas
+LK,Sri Lanka,7.45,80.175,AS,Asia
+LY,Libya,27.0,17.0,AF,EurAfrMENA
+MA,Morocco,33.791,-6.047,AF,EurAfrMENA
+MG,Madagascar,-19.489,47.445,AF,EurAfrMENA
+MM,Myanmar,20.2,94.8,AS,Asia
+MN,Mongolia,47.28,107.746,AS,Asia
+MR,Mauritania,18.059,-15.984,AF,EurAfrMENA
+MU,Mauritius,-20.212,57.579,AF,EurAfrMENA
+MX,Mexico,21.559,-100.773,NA,Americas
+MY,Malaysia,2.751,101.67,AS,Asia
+NE,Niger,13.97,5.525,AF,EurAfrMENA
+NG,Nigeria,7.455,3.885,AF,EurAfrMENA
+NI,Nicaragua,12.2,-86.735,NA,Americas
+NL,Netherlands,52.875,4.945,EU,EurAfrMENA
+NO,Norway,63.44,8.132,EU,EurAfrMENA
+NP,Nepal,27.811,85.185,AS,Asia
+NZ,New Zealand,-40.949,175.062,OC,Oceania
+OM,Oman,18.35,55.71,AS,Asia
+PA,Panama,8.185,-80.704,NA,Americas
+PE,Peru,-17.03,-71.539,SA,Americas
+PH,Philippines,13.861,121.681,AS,Asia
+PK,Pakistan,27.319,69.992,AS,Asia
+PL,Poland,53.213,17.38,EU,EurAfrMENA
+PS,Palestine,31.93,35.46,AS,Asia
+PT,Portugal,40.347,-7.884,EU,EurAfrMENA
+PY,Paraguay,-23.0,-58.0,SA,Americas
+RO,Romania,44.529,27.34,EU,EurAfrMENA
+RU,Russia,51.827,54.32,EU,EurAfrMENA
+RW,Rwanda,-2.026,30.377,AF,EurAfrMENA
+SA,Saudi Arabia,31.62,38.795,AS,Asia
+SE,Sweden,63.654,16.282,EU,EurAfrMENA
+SK,Slovakia,48.327,19.479,EU,EurAfrMENA
+SN,Senegal,15.398,-16.417,AF,EurAfrMENA
+SR,Suriname,5.089,-55.255,SA,Americas
+SV,El Salvador,13.448,-88.987,NA,Americas
+TH,Thailand,15.311,101.055,AS,Asia
+TN,Tunisia,37.119,10.492,AF,EurAfrMENA
+TR,Turkey,39.049,31.238,AS,Asia
+TW,Taiwan,23.682,120.945,AS,Asia
+UA,Ukraine,44.96,33.877,EU,EurAfrMENA
+UG,Uganda,0.15,31.795,AF,EurAfrMENA
+US,United States of America,37.615,-99.818,NA,Americas
+UY,Uruguay,-33.179,-56.217,SA,Americas
+UZ,Uzbekistan,39.583,66.72,AS,Asia
+VN,Vietnam,11.326,107.849,AS,Asia
+ZA,South Africa,-30.622,23.274,AF,EurAfrMENA
+ZM,Zambia,-15.55,28.35,AF,EurAfrMENA

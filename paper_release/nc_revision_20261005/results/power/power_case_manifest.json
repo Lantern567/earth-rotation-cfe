@@ -1,0 +1,59 @@
+{
+  "trace_path": "AzureLLMInferenceTrace_code_1week.csv",
+  "trace_sha256": "71de5c55cbc35f8f1ed0b6b7806b4cd1e9764b0058469725a6aac98023a1448f",
+  "renewable_path": "inputs/hourly/country_hourly_cf.parquet",
+  "renewable_sha256": "7d6446125ca60f76e8f5e29f7f5060929d974fbce1050077b4535dcd5d92ee08",
+  "derived_hourly_trace_sha256": "3c28736183854100252659fb51d77da128f53bfbdef2e2c66fe045d9cd476ade",
+  "derived_hourly_renewable_sha256": "ce01f830bdddedc0d5623f5e04670d71bb2e5fca035e3cd9dea06d03c4803ed5",
+  "origin_assignment": "zero-based CSV row index modulo 10: US 0-4, DE 5-7, JP 8-9; scenario, not observed geography",
+  "original_requests": 16803695,
+  "background_job_units": 3360749.0,
+  "first_hour_utc": "2024-05-10T00:00:00+00:00",
+  "last_hour_utc": "2024-05-16T23:00:00+00:00",
+  "hours": 168,
+  "solar_wind_calendar": "same civil UTC month/day/hour shifted by one year; controlled 2024 requests with 2025 renewable reconstruction",
+  "fleet": {
+    "US": 190,
+    "DE": 114,
+    "JP": 76
+  },
+  "design_rate_requests_per_second_per_gpu": 0.3,
+  "design_headroom_factor": 0.8,
+  "hardware_parameters": {
+    "H100_NVL": [
+      59.0,
+      165.9,
+      39.0
+    ],
+    "A100_SXM4": [
+      56.0,
+      172.9,
+      48.0
+    ],
+    "L4": [
+      17.0,
+      68.7,
+      203.0
+    ]
+  },
+  "delay_scenario_ms": [
+    [
+      0.0,
+      120.0,
+      180.0
+    ],
+    [
+      120.0,
+      0.0,
+      220.0
+    ],
+    [
+      180.0,
+      220.0,
+      0.0
+    ]
+  ],
+  "hardware_source": "https://arxiv.org/html/2604.09048v1",
+  "transition_sensitivity_source": "https://hotcarbon.org/assets/2025/paper-11.pdf",
+  "baseline_supply": "for each hardware, fixed solar/wind shape with budget equal to local always-on baseline GPU energy; retained across every routing/power policy for that hardware"
+}

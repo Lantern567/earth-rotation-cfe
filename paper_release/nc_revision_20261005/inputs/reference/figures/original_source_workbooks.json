@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "original_workbook": "Source Data Fig1.xlsx",
+      "packaged_path": "inputs/reference/figures/Source Data Fig1.xlsx",
+      "sha256": "6c2c16ea118c75abc277f3e8089ca01e6bea8ee6671bd71675afef07dbf03bca"
+    },
+    {
+      "original_workbook": "Source Data Fig2.xlsx",
+      "packaged_path": "inputs/reference/figures/Source Data Fig2.xlsx",
+      "sha256": "d877418bc63207de99494c65df0ac6df083cf8e64ebbd0654a650969f9f91030"
+    },
+    {
+      "original_workbook": "Source Data Fig3.xlsx",
+      "packaged_path": "inputs/reference/figures/Source Data Fig3.xlsx",
+      "sha256": "e14c9486c91ff9c81c2fe3961cd2c0df387e322dc3bd8248355f9309def302e2"
+    },
+    {
+      "original_workbook": "Source Data Fig4.xlsx",
+      "packaged_path": "inputs/reference/figures/Source Data Fig4.xlsx",
+      "sha256": "b737bbf57a0e26ba78fc0808b0377428e4f9ceaee1690254c4902fc34773f221"
+    }
+  ],
+  "index_source_label": "Original source data/<filename>",
+  "index_label_directory": "inputs/reference/figures/",
+  "workbook_sha256": "cb779bfa935bb6067e55d575bf985bc82c40b44f9172ac557d251caddadf54fb",
+  "only_changed_cell": {
+    "sheet": "Index",
+    "row": 27,
+    "column": 9,
+    "before": "Consumer shape derives from measured Azure tokens. Business shape is an assumed Gaussian profile.",
+    "after": "Consumer shape derives from measured BurstGPT tokens. Business shape is an assumed Gaussian profile."
+  },
+  "all_other_cells_unchanged": true
+}

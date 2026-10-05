@@ -1,0 +1,13 @@
+{
+  "keys": 7384,
+  "distinct_inputs": 4591,
+  "tables": {
+    "r3_dispatch_cost_table.csv": 1248,
+    "r3_dispatch_grid_2030.csv": 3744,
+    "r3_dispatch_yearly_phi1.csv": 3744
+  },
+  "hours": 8760,
+  "reliability": "unserved_t fixed to zero every hour",
+  "objective": "same original annualized generation, storage and ancillary cost",
+  "deduplication": "Exact SHA-256 equality of float32 demand/supply arrays and float64 costs"
+}

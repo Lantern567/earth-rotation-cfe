@@ -1,0 +1,110 @@
+{
+  "source": "BurstGPT v2.0 (Azure OpenAI GPT serving trace)",
+  "trace_files": [
+    "BurstGPT_without_fails_1.csv",
+    "BurstGPT_without_fails_2.csv",
+    "BurstGPT_without_fails_3.csv"
+  ],
+  "n_requests_total": 10144565,
+  "trace_span_days": 334.99980324074073,
+  "gaussian_fit": {
+    "count": {
+      "peak_hour": 18.308874258287947,
+      "sigma_h": 3.9918008314544102,
+      "fwhm_h": 9.399972613680056,
+      "baseline_share": 0.03195377552425732,
+      "amplitude": 0.025775102231474313,
+      "ok": true
+    },
+    "tokens": {
+      "peak_hour": 18.04877696445249,
+      "sigma_h": 3.7937576561517585,
+      "fwhm_h": 8.933616574695792,
+      "baseline_share": 0.029317959099360833,
+      "amplitude": 0.033684444525806566,
+      "ok": true
+    },
+    "resp_tokens": {
+      "peak_hour": 18.115673430534756,
+      "sigma_h": 3.981047780556849,
+      "fwhm_h": 9.37465111388124,
+      "baseline_share": 0.03160370546343617,
+      "amplitude": 0.026523841077665988,
+      "ok": true
+    }
+  },
+  "bootstrap_ci_95pct_tokens": {
+    "peak_hour_p2_5": 17.746374047731248,
+    "peak_hour_p50": 18.039960933380904,
+    "peak_hour_p97_5": 18.386829889902312,
+    "sigma_h_p2_5": 3.52806294517334,
+    "sigma_h_p50": 3.7859186356394976,
+    "sigma_h_p97_5": 4.051443493142986,
+    "n_successful_iters": 500
+  },
+  "burst_stats_hourly": {
+    "tokens": {
+      "n_bins": 5338,
+      "mean": 964202.9923192207,
+      "median": 295676.0,
+      "p90": 2488673.7000000007,
+      "p95": 3755272.9999999944,
+      "p99": 8978501.810000002,
+      "p999": 15281534.45799997,
+      "max": 40472056.0,
+      "p99_over_mean": 9.311837736993324,
+      "p999_over_mean": 15.848876823378165
+    },
+    "resp_tokens": {
+      "n_bins": 5338,
+      "mean": 136306.10228550018,
+      "median": 51923.5,
+      "p90": 337879.4000000001,
+      "p95": 502349.34999999974,
+      "p99": 1167009.6100000003,
+      "p999": 2384529.475999996,
+      "max": 4106742.0,
+      "p99_over_mean": 8.561682789194855,
+      "p999_over_mean": 17.493930469858757
+    }
+  },
+  "operator_gamma_with_country_band": {
+    "gamma_emp_tokens": 9.311837736993324,
+    "gamma_emp_resp_tokens": 8.561682789194855,
+    "d_burst_over_mean_country_p50": 1.7163431914672245,
+    "d_burst_over_mean_country_p25": 1.632451427565587,
+    "d_burst_over_mean_country_p75": 1.8849002583823493,
+    "gamma_op_recommended": 4.842759757090252,
+    "gamma_op_low": 4.409696322142092,
+    "gamma_op_high": 5.091629433280262
+  },
+  "stationarity_per_slice": [
+    {
+      "trace_slice": "1",
+      "n_requests": 1404294,
+      "duration_days": 60.995,
+      "peak_hour": 17.686326859255402,
+      "sigma_h": 4.2004453023905235,
+      "fwhm_h": 9.891292796125292,
+      "p99_over_mean": 10.631175593387077
+    },
+    {
+      "trace_slice": "2",
+      "n_requests": 3784213,
+      "duration_days": 59.999780092592594,
+      "peak_hour": 17.068306444564524,
+      "sigma_h": 4.195391738520318,
+      "fwhm_h": 9.879392562624886,
+      "p99_over_mean": 5.070890086787859
+    },
+    {
+      "trace_slice": "3",
+      "n_requests": 4956058,
+      "duration_days": 109.99853009259259,
+      "peak_hour": 18.37863499462795,
+      "sigma_h": 3.261366716227412,
+      "fwhm_h": 7.679931717569073,
+      "p99_over_mean": 10.699283098129975
+    }
+  ]
+}

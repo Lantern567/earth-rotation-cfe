@@ -1,0 +1,59 @@
+{
+  "r3_dispatch_cost_table.csv": {
+    "rows": 1248,
+    "all_hourly_unmet_zero": true,
+    "all_optimal": true,
+    "maxima": {
+      "equality_max_abs_error_mw": 1.267325799858554e-09,
+      "inequality_max_violation_mw": 5.540528036362956e-10,
+      "bound_max_violation": 3.273328275099629e-10
+    },
+    "unchanged_geometric_U_max_serialization_error": 0.0
+  },
+  "r3_dispatch_grid_2030.csv": {
+    "rows": 3744,
+    "all_hourly_unmet_zero": true,
+    "all_optimal": true,
+    "maxima": {
+      "equality_max_abs_error_mw": 1.5154455468291415e-09,
+      "inequality_max_violation_mw": 9.006555501400725e-10,
+      "bound_max_violation": 6.842242328275461e-10
+    },
+    "unchanged_geometric_U_max_serialization_error": 0.0
+  },
+  "r3_dispatch_yearly_phi1.csv": {
+    "rows": 3744,
+    "all_hourly_unmet_zero": true,
+    "all_optimal": true,
+    "maxima": {
+      "equality_max_abs_error_mw": 1.5154455468291415e-09,
+      "inequality_max_violation_mw": 9.356995178677607e-10,
+      "bound_max_violation": 6.422169462894091e-10
+    },
+    "unchanged_geometric_U_max_serialization_error": 0.0
+  },
+  "primary_duplicate_max_cost_error_usd_per_mwh": 5.684341886080802e-14,
+  "batch": {
+    "rows": 416,
+    "all_optimal": true,
+    "all_unmet_zero": true,
+    "max_work_conservation_error_mwh": 5.529727786779404e-09,
+    "max_zero_deadline_cost_error_usd_per_mwh": 5.684341886080801e-13,
+    "max_equalities_error_mw": 5.2814321804817155e-09
+  },
+  "s23": {
+    "rows": 12,
+    "all_optimal": true
+  },
+  "window_sensitivity": {
+    "rows": 36,
+    "all_optimal": true,
+    "all_unmet_zero": true,
+    "max_proxy_annual_energy_error": 9.094947017729282e-13,
+    "maxima": {
+      "equality_max_abs_error_mw": 9.200107342621776e-11,
+      "inequality_max_violation_mw": 6.683364972559501e-11,
+      "bound_max_violation": 2.6474822334421333e-11
+    }
+  }
+}

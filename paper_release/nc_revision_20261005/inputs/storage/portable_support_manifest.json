@@ -1,0 +1,84 @@
+{
+  "default_project_root": ".",
+  "scientific_source_root": "collective_attention_research_plan",
+  "revision_scripts": "scripts/storage",
+  "complete_results": "results/storage",
+  "cache_files_included": false,
+  "files": [
+    {
+      "path": "collective_attention_research_plan/data/cloudflare_global_demand/country_hourly_demand.csv.gz",
+      "bytes": 18183221,
+      "sha256": "a6a352bc9df3e71cc32fbb7da4919c948c72c0a01f27598849ba3f803e60dc12"
+    },
+    {
+      "path": "collective_attention_research_plan/data/global_renewable_sites/country_hourly_cf.parquet",
+      "bytes": 10786898,
+      "sha256": "7d6446125ca60f76e8f5e29f7f5060929d974fbce1050077b4535dcd5d92ee08"
+    },
+    {
+      "path": "collective_attention_research_plan/data/global_renewable_sites/country_capacity.csv",
+      "bytes": 13235,
+      "sha256": "dffa4ae1a2e005efa2a0271e73e1fc73d65f62499f0bf6da07d840e228a42d9c"
+    },
+    {
+      "path": "collective_attention_research_plan/data/global_renewable_sites/country_meta.csv",
+      "bytes": 4096,
+      "sha256": "cb26abfe74728b4133211482c03ca7f6957cf26fc74d72016a3e7bb3bacdd1cd"
+    },
+    {
+      "path": "inputs/hourly/normalization_windows.csv",
+      "bytes": 167512,
+      "sha256": "e14b441860ae7d5a6ed00a2e72cb795b4978414efca2d1f0abfc1996e63df331"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/run_dispatch_cost_full.py",
+      "bytes": 7747,
+      "sha256": "19e48d2abd0ed3dd2bee8e8e2fd2dfec7688917249d354e0f050bb1517b489f1"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/storage_dispatch_lp.py",
+      "bytes": 7300,
+      "sha256": "8d41ebcdc32982811e0bd70f8c7da91d553a6edcc9e8dfeeb0fae83552529d61"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/analyze_cfe_r3_waveform_cost.py",
+      "bytes": 9884,
+      "sha256": "2d6ac2290a75b6f586263bc0791954de1ec14395677ca9acbc35f47639cd10d0"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/analyze_cfe_global_sites.py",
+      "bytes": 26012,
+      "sha256": "1ad8a2fb215c5145577a738be16b82bab504988a2789f1896b8888650dcc164c"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/analyze_cfe_geographic_portfolio_ai.py",
+      "bytes": 76357,
+      "sha256": "defda7d663ab9ec2391ed78823488aac609b7288fd2067db8ef848e5655711c2"
+    },
+    {
+      "path": "collective_attention_research_plan/scripts/fullsystem_cost_params.py",
+      "bytes": 9621,
+      "sha256": "23bc70f5299da450773f2410f8ce5f55264cb356364519e247d0ceed6e3c87d5"
+    },
+    {
+      "path": "collective_attention_research_plan/reports/cfe_geographic_portfolio_ai/data_globalsites/nrel_atb_2024_battery_4h.csv",
+      "bytes": 816,
+      "sha256": "b7958d4e20864a4114b5cbace0e48b0f33706f1dbdc11a0b2dcce3a1b1c9a2b9"
+    },
+    {
+      "path": "collective_attention_research_plan/reports/cfe_geographic_portfolio_ai/data_globalsites/r3_dispatch_cost_table.csv",
+      "bytes": 233680,
+      "sha256": "9a55d010a75d8acc57aec53a7083d5a9afad05f783134df3f4ad130c371f9db1"
+    },
+    {
+      "path": "collective_attention_research_plan/reports/cfe_geographic_portfolio_ai/data_globalsites/r3_dispatch_grid_2030.csv",
+      "bytes": 706480,
+      "sha256": "6421451038c1d7523301be195b4c760a10cb418ba5db3d3730bcabc4af311901"
+    },
+    {
+      "path": "collective_attention_research_plan/reports/cfe_geographic_portfolio_ai/data_globalsites/r3_dispatch_yearly_phi1.csv",
+      "bytes": 710976,
+      "sha256": "640a682f3355502fec5cfb5645796ba8458e6f3a39756041171e09a016422167"
+    }
+  ]
+}

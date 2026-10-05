@@ -1,0 +1,39 @@
+{
+  "n_countries": 104,
+  "median_percent": {
+    "dom_nnls": 41.832406014010594,
+    "dom_lp": 40.8085739244044,
+    "rt_nnls": 12.714211771518153,
+    "rt_lp_fixed_nnls_residual": 12.208115725905056,
+    "rho_fixed_nnls_residual": 34.04460275876835,
+    "rt_lp_pipeline": 12.36999853303838,
+    "rho_lp_pipeline": 35.62063676284651
+  },
+  "frozen_max_absolute_difference": {
+    "dom_nnls": 3.3306690738754696e-16,
+    "dom_lp": 3.807365533958773e-11,
+    "rt_nnls": 4.996003610813204e-16,
+    "rt_lp_pipeline": 6.118161532953081e-13
+  },
+  "same_residual_lp_worse_count": 0,
+  "pipeline_lp_worse_count": 14,
+  "certificate_max": {
+    "solver_status": 0.0,
+    "primal_objective": 5125.404463241186,
+    "dual_objective": 5125.404463241187,
+    "duality_gap_absolute": 5.846914064022712e-10,
+    "duality_gap_relative": 6.346841653525774e-13,
+    "primal_inequality_violation": 1.301470042847086e-11,
+    "primal_equality_violation": 1.0986695997416973e-09,
+    "primal_bound_violation": 0.0,
+    "dual_sign_violation": 0.0,
+    "dual_stationarity_violation": 1.2235432222951204e-08,
+    "dual_reduced_cost_violation": 1.2235432222951204e-08,
+    "complementarity_max": 1.1470486540253951e-10
+  },
+  "refit_median_percent": {
+    "original_uncovered_share": 12.714211771518153,
+    "nnls_refit_fixed_domestic_energy": 13.077218403775536,
+    "nnls_refit_reallocated_domestic_energy": 18.034874810785258
+  }
+}

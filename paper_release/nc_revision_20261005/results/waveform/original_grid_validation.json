@@ -1,0 +1,19 @@
+{
+  "grid_rows": 3744,
+  "grid_max_absolute_difference": {
+    "uncovered_share": 3.0531133177191805e-16,
+    "uncovered_share_baseline": 2.220446049250313e-16,
+    "migrated_share": 3.3306690738754696e-16
+  },
+  "flow_tau100_max_absolute_difference": 1.3877787807814457e-15,
+  "flow_tau150_max_absolute_difference": 1.429412144204889e-15,
+  "flow_tau200_max_absolute_difference": 5.329070518200751e-15,
+  "flow_tau500_max_absolute_difference": 5.578870698741412e-15,
+  "followsun_max_absolute_difference": {
+    "x_peak": 0.0,
+    "y_solar": 1.7763568394002505e-14,
+    "reach": 1.7763568394002505e-14,
+    "phase_lag": 0.0,
+    "migrated_share": 3.3306690738754696e-16
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "trace_requests": 16803695,
+  "trace_context_tokens": 42198710773,
+  "trace_generated_tokens": 381271302,
+  "mean_context_tokens": 2511.27569103105,
+  "mean_generated_tokens": 22.689729967129253,
+  "countries": {
+    "US": 190,
+    "DE": 114,
+    "JP": 76
+  },
+  "hours": 168,
+  "all_cases": 30,
+  "all_cases_ledger_verified": true
+}

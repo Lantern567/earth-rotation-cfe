@@ -1,0 +1,252 @@
+{
+  "sources": 41,
+  "all_sources_matched": true,
+  "records": [
+    {
+      "sheet": "S6 annual objective",
+      "source": "results/waveform/objective_results.csv",
+      "sha256": "b1173b0bd99821544ad56c1e26bf340457e32c5260948c8f32f66874d286753e",
+      "matched": true
+    },
+    {
+      "sheet": "S6 normalized certificate",
+      "source": "results/waveform/normalized_separation_certificates.csv",
+      "sha256": "5c342f3be5f436d43dd35b6e2986833720e837f88a322d8fcfe6dd51a752feee",
+      "matched": true
+    },
+    {
+      "sheet": "S6 raw LP certificate",
+      "source": "results/waveform/lp_certificates.csv",
+      "sha256": "d4c3359c75c1eb1aca7786905ca2ac13e55740035c7e2dfaf5ba18456a6df7b1",
+      "matched": true
+    },
+    {
+      "sheet": "S6 domestic refit",
+      "source": "results/waveform/domestic_refit_comparison.csv",
+      "sha256": "e2b1ad021fbd3a6ae750346afb64806c546a9af2b382be64c43686856d4d51d7",
+      "matched": true
+    },
+    {
+      "sheet": "S7 consumer business profiles",
+      "source": "results/waveform/business_consumer_profiles.csv",
+      "sha256": "bca1d897c1b30e4834e87df242144d5bd3ef1e44eb9e9a4b276ea0a13b505c53",
+      "matched": true
+    },
+    {
+      "sheet": "S7 consumer business country",
+      "source": "results/waveform/business_consumer_country_results.csv",
+      "sha256": "99f00b321a86f05e068672732b7c1ce6243c47d5fecfe6d31aeff7c51de42ccc",
+      "matched": true
+    },
+    {
+      "sheet": "S7 consumer business median",
+      "source": "results/waveform/business_consumer_median_percent.csv",
+      "sha256": "1f26fe3aad5e74140842cd4e9c2a23d5765ab11b1af82e38a046e25459af4668",
+      "matched": true
+    },
+    {
+      "sheet": "S7 consumer business key grid",
+      "source": "results/waveform/business_consumer_key_country_grid.csv",
+      "sha256": "c647a1e70b32414a2764c57b256c1b658cf8bd9ef050af2f3b661b3a97f92c26",
+      "matched": true
+    },
+    {
+      "sheet": "Window country gaps",
+      "source": "results/waveform/window_weight_country_results.csv",
+      "sha256": "9d97112b1735a70a3bcefefa0ba86a9b040c30d652275abba7a369ed65249af7",
+      "matched": true
+    },
+    {
+      "sheet": "Window median gaps",
+      "source": "results/waveform/window_weight_median_percent.csv",
+      "sha256": "6863ad5ace422347da407e6f1f08e6bf39b7c062def2021e3c9ddbe5617408fc",
+      "matched": true
+    },
+    {
+      "sheet": "Window monthly factors",
+      "source": "results/waveform/window_weight_scenario_factors.csv",
+      "sha256": "fa4a8e0efba93125faef784a196c6c118fa81e5fae66bba8602baafa7f916495",
+      "matched": true
+    },
+    {
+      "sheet": "Window normalization audit",
+      "source": "results/waveform/window_normalization_audit.csv",
+      "sha256": "e14b441860ae7d5a6ed00a2e72cb795b4978414efca2d1f0abfc1996e63df331",
+      "matched": true
+    },
+    {
+      "sheet": "Fig3 complete basis weights",
+      "source": "results/waveform/fig3_basis_attribution_unfiltered.csv",
+      "sha256": "5ef958539b687396ad4979b18304ec66fb8f6cd0394bc5ab0f811e46940ac237",
+      "matched": true
+    },
+    {
+      "sheet": "Fig3 country statistics",
+      "source": "results/waveform/fig3_country_statistics.csv",
+      "sha256": "1646eb36f7256bfb6ff6c538da62ab4ae1589aaba8810e17c4a7c9c1d1a09df3",
+      "matched": true
+    },
+    {
+      "sheet": "Fig3 four tier summary",
+      "source": "results/waveform/fig3_four_tiers_summary.csv",
+      "sha256": "7bba7c8864d280f98bba53f02cc1ed9bd476f4184c7027689dbd6f211ed40ce3",
+      "matched": true
+    },
+    {
+      "sheet": "Waveform routing grid",
+      "source": "results/waveform/r2_waveform_grid.csv",
+      "sha256": "c08c3c9f724dd8a2e9544d1bf9c49b640036d3d7c2f5a753535c1b8cf760da58",
+      "matched": true
+    },
+    {
+      "sheet": "Waveform median grid",
+      "source": "results/waveform/r2_waveform_median.csv",
+      "sha256": "2c2dfe79bf0af8a0d2eb99954bc2a701de7126e9c60430fb69aee899adeb50e4",
+      "matched": true
+    },
+    {
+      "sheet": "S8 policy source data",
+      "source": "figures/FigS8/FigS8_source_data.csv",
+      "sha256": "20dcdc462e65b0131923ec2e46f480a536a1912d261b031b019e5ea78a3344bd",
+      "matched": true
+    },
+    {
+      "sheet": "S8 hourly site power change",
+      "source": "figures/FigS8/FigS8_panel_c_source_data.csv",
+      "sha256": "2a2d8ef071824f7830d4b36ff51357803cc94d898af2ef533927ecf6a687db80",
+      "matched": true
+    },
+    {
+      "sheet": "S8 background completion",
+      "source": "figures/FigS8/FigS8_panel_d_source_data.csv",
+      "sha256": "f6c4803fd19cd37948819c451bd13b66e8ade03654510b77e616a496a2e27c7e",
+      "matched": true
+    },
+    {
+      "sheet": "Power all GPU cases",
+      "source": "results/power/power_case_summary.csv",
+      "sha256": "03f7c2362a316eff643e98fa1a69ee2991c07fc786b596f10724139180fc49c3",
+      "matched": true
+    },
+    {
+      "sheet": "Power facility overhead",
+      "source": "results/power/facility_overhead_sensitivity.csv",
+      "sha256": "6f25135765ef03f2506059d807bca3c66e98e18892a5b6863fe9c5fdaaf963d0",
+      "matched": true
+    },
+    {
+      "sheet": "Power low load endpoint",
+      "source": "results/power/low_load_endpoint_sensitivity.csv",
+      "sha256": "abdf2f4938bab2e22a2a0c166815693ae14c54cc52f74a8881ffbc70b86ad982",
+      "matched": true
+    },
+    {
+      "sheet": "Power background pools",
+      "source": "results/power/finite_background_daily_job_unit_pools.csv",
+      "sha256": "645ce2659d42ebead925f9f37c650eba03f8aff24520fa798809c946ccdff0be",
+      "matched": true
+    },
+    {
+      "sheet": "Power parameter evidence",
+      "source": "results/power/primary_power_and_latency_evidence.csv",
+      "sha256": "6dd4b225b91c73ff138e8f82a8fa6425ef981118b3e1167c72aa9db78c6771b5",
+      "matched": true
+    },
+    {
+      "sheet": "TTFT TBT illustrative budgets",
+      "source": "results/power/illustrative_ttft_tbt_budget_scenarios.csv",
+      "sha256": "9ebbe902f0fee1076d09d9bf10e64f6754f046e47521100284566319bd023410",
+      "matched": true
+    },
+    {
+      "sheet": "Network delay assumptions",
+      "source": "results/power/illustrative_network_delay_assumptions.csv",
+      "sha256": "39876770db747385367305f69d389bb0a7d017ece0e09cc9c5aa47931fb242bc",
+      "matched": true
+    },
+    {
+      "sheet": "Economic electricity prices",
+      "source": "results/power/frozen_dispatch_price_sensitivity.csv",
+      "sha256": "66da38a2fb6cb49a570339f9f05752212650a9c68b0700c243b770ac4e7bcd2c",
+      "matched": true
+    },
+    {
+      "sheet": "Economic routing fee threshold",
+      "source": "results/power/illustrative_routing_fee_thresholds.csv",
+      "sha256": "bfec229a1352c5676ae2bac19ec6c705d594907cd074a61e90218e4fc1052dea",
+      "matched": true
+    },
+    {
+      "sheet": "Fig5 strict dispatch cost",
+      "source": "results/storage/r3_dispatch_cost_table.csv",
+      "sha256": "8d03c584e1b49953b6107b9c76fc7f8604be77188f92acb6369d8ab5762b9275",
+      "matched": true
+    },
+    {
+      "sheet": "Fig5 strict routing grid 2030",
+      "source": "results/storage/r3_dispatch_grid_2030.csv",
+      "sha256": "961bc51a1e59efe7ab7cd1130c3fac57244ca9cef022ed39286811a7656dc10b",
+      "matched": true
+    },
+    {
+      "sheet": "Fig5 strict annual phi1",
+      "source": "results/storage/r3_dispatch_yearly_phi1.csv",
+      "sha256": "52fe11cc2b651aea388454603c7d77c924c806324e86e6b19e4093f9936cac64",
+      "matched": true
+    },
+    {
+      "sheet": "S9 strict reliability country",
+      "source": "results/storage/strict_reliability_2030.csv",
+      "sha256": "548a6ec93aff0bd0bd1c06dac2e0fa2ecd9280067da17e4e19ed5811c3bfb52f",
+      "matched": true
+    },
+    {
+      "sheet": "S9 finite batch deadlines",
+      "source": "results/storage/batch_deadlines_2030.csv",
+      "sha256": "70644ded2fcc92e1a3fa780dc217ff6ff15a9e6c0e2134cebdc8dfccace1553e",
+      "matched": true
+    },
+    {
+      "sheet": "Table S23 reliability",
+      "source": "results/storage/table_s23_reliability.csv",
+      "sha256": "fd16bb57585cbcd0f1acbe2dcbf6bfaebea47e672374d261a98ce27371efb61f",
+      "matched": true
+    },
+    {
+      "sheet": "Window storage sensitivity",
+      "source": "results/storage/window_storage_sensitivity_2030.csv",
+      "sha256": "968f3ad1174839b908bc0b67be64cc28c0fcc0078eba7196bab730e219743a49",
+      "matched": true
+    },
+    {
+      "sheet": "Window storage comparison",
+      "source": "results/storage/window_storage_comparison_2030.csv",
+      "sha256": "125b39a52a937ebffd98311ff8455e9c0f765719979f202174c749cff5b1f6bb",
+      "matched": true
+    },
+    {
+      "sheet": "Window storage month factors",
+      "source": "results/storage/window_storage_factors.csv",
+      "sha256": "b8bbf237413be96553899ad12901b163ec1285c1f030cdc877c3af7228e98851",
+      "matched": true
+    },
+    {
+      "sheet": "Table S21 cost components",
+      "source": "results/storage/table_s21_actual_cost_components.csv",
+      "sha256": "583813a4bfcd06c604cfa072c8011def80019369340af71549d71375bdef0a40",
+      "matched": true
+    },
+    {
+      "sheet": "Fig5 old strict medians",
+      "source": "results/storage/fig5_old_new_medians.csv",
+      "sha256": "ad3abf07f36968eef27aad428a76274512065235573b417b4ad814530530dab8",
+      "matched": true
+    },
+    {
+      "sheet": "2025 soft replay comparison",
+      "source": "results/storage/soft_2025_reproduction_comparison.csv",
+      "sha256": "e368f11c6c570963ded07d86177598ce6f5382219bee528cc83d32861f9f145f",
+      "matched": true
+    }
+  ]
+}

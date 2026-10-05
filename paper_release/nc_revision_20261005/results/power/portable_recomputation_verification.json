@@ -1,0 +1,23 @@
+{
+  "portable_recomputation_passed": true,
+  "case_count": 30,
+  "absolute_max_differences": {
+    "interactive_requests": 0.0,
+    "background_job_units": 0.0,
+    "gpu_energy_kwh": 0.0,
+    "clean_supply_kwh": 0.0,
+    "same_hour_gap_kwh": 0.0,
+    "same_hour_gap_pct_gpu_energy": 0.0,
+    "routed_request_equivalents": 0.0,
+    "awake_gpu_hours": 0.0,
+    "replica_activations": 0.0,
+    "transition_kwh": 0.0
+  },
+  "original_development_paths_required": false,
+  "required_inputs": [
+    "azure_coding_hourly_with_scenario_origins.csv",
+    "renewable_three_site_hourly.csv",
+    "input_provenance.json"
+  ],
+  "comparison_scope": "all 30 power scenarios, including routing, fleet energy, finite background, transition sensitivity and absolute/relative gaps"
+}

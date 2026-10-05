@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "replayed_cases": 6,
+  "maximum_soft_cost_difference_vs_frozen_usd_per_mwh": 1.1368683772161603e-12,
+  "maximum_soft_component_difference_vs_frozen_usd_per_mwh": 1.0800249583553523e-12,
+  "strict_unmet_mwh_max": 0.0,
+  "strict_service_pct_min": 100.0,
+  "normalization": "100 MW mean remaining domestic load",
+  "cost_denominator": "annual remaining domestic demand MWh",
+  "frozen_source_table": "r3_dispatch_cost_table.csv",
+  "replayed_objective": "original VOLL penalty with no zero-shortfall constraint"
+}

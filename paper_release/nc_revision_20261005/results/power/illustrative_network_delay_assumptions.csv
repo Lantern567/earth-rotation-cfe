@@ -1,0 +1,10 @@
+origin,destination,assumed_added_network_delay_ms,measured_network_tail
+US,US,0.0,False
+US,DE,120.0,False
+US,JP,180.0,False
+DE,US,120.0,False
+DE,DE,0.0,False
+DE,JP,220.0,False
+JP,US,180.0,False
+JP,DE,220.0,False
+JP,JP,0.0,False

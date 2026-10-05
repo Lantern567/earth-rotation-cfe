@@ -1,0 +1,44 @@
+{
+  "original_script_sha256": "1bf3f138cbb8d3781fa80ee9e5f2c784e901ed8def1fe997a9d0ed31b7980a15",
+  "revised_script_sha256": "2caa2e1e597872302cfbd5d38542d395365cc9ba583a7bc34ffd0e48e67f00e8",
+  "input_sha256": {
+    "burstgpt_bootstrap_ci.csv": "2adc8aadebebc65f805a4a71a649cd16dbab1191465cd62f9ec9e0eac1b2a950",
+    "burstgpt_diurnal_fit_v2.csv": "6e6807a12fdeae0f0f2c63ee4291b7812111f1ed9044128f3cf476f0bb6589f5",
+    "burstgpt_stationarity.csv": "238cac2533e4258e1899b0c4888fae0fa59f32710f17fd3aa844f202c466f828",
+    "burstgpt_workload_shape_params_v2.json": "4aca5f1a201ef9e87b1a70f9a7984004703404392377245ba924f4f81a068d00"
+  },
+  "data_artists_exactly_equal": true,
+  "axis_limits_labels_and_colors_equal": true,
+  "annotation_texts_equal": true,
+  "changed_annotation_positions": [
+    {
+      "panel": "b",
+      "text": "slice 1\nP99/mean=10.6",
+      "original": [
+        7,
+        -2
+      ],
+      "revised": [
+        18.0,
+        4.42
+      ]
+    },
+    {
+      "panel": "b",
+      "text": "slice 2\nP99/mean=5.1",
+      "original": [
+        7,
+        -2
+      ],
+      "revised": [
+        16.7,
+        4.42
+      ]
+    }
+  ],
+  "diurnal_rows": 24,
+  "bootstrap_rows": 500,
+  "stationarity_rows": 3,
+  "pooled_peak_hour": 18.04877696445249,
+  "pooled_sigma_h": 3.7937576561517585
+}

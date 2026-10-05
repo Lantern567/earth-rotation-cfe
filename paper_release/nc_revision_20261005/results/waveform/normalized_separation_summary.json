@@ -1,0 +1,27 @@
+{
+  "n_certificates": 208,
+  "external_verification_tolerance_unit_energy": 1e-08,
+  "max_errors": {
+    "h_bound_violation": 0.0,
+    "margin_minus_rho_absolute": 8.104628079763643e-15,
+    "normalized_primal_dual_gap": 4.107825191113079e-15,
+    "normalized_energy_equality_error": 1.2101430968414206e-14,
+    "normalized_uncovered_constraint_violation": 3.3881317890172014e-19,
+    "normalized_weight_reduced_cost_violation": 5.88418203051333e-15,
+    "dual_y_plus_max_partner_dot": 5.88418203051333e-15
+  },
+  "by_stage": {
+    "fixed_nnls_residual": {
+      "median_rho": 0.34044602758768355,
+      "median_annual_U": 0.12208115725905057,
+      "minimum_separation_margin": 0.18100022614163658,
+      "maximum_separation_margin": 0.5331810128856395
+    },
+    "lp_domestic_residual": {
+      "median_rho": 0.3562063676284651,
+      "median_annual_U": 0.12369998533038382,
+      "minimum_separation_margin": 0.18100022614163658,
+      "maximum_separation_margin": 0.5316742351468304
+    }
+  }
+}
