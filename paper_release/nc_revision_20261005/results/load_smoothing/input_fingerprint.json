@@ -1,0 +1,28 @@
+{
+  "waveform_script_sha256": "70be9f9f930bc4da802d2a93c396f12f02695ea11e79cf43b9b175eaf3324617",
+  "archive_results_sha256": "b1173b0bd99821544ad56c1e26bf340457e32c5260948c8f32f66874d286753e",
+  "hourly_inputs": {
+    "country_hourly_demand.csv.gz": "a6a352bc9df3e71cc32fbb7da4919c948c72c0a01f27598849ba3f803e60dc12",
+    "site_hourly_cf.parquet": "911a2e9bd7e88752075edaf8d825152cb02e0ac877df1504627bcbd6ad49af80",
+    "country_meta.csv": "cb26abfe74728b4133211482c03ca7f6957cf26fc74d72016a3e7bb3bacdd1cd"
+  },
+  "cases": {
+    "base": 0.0,
+    "static10": 0.1,
+    "static25": 0.25,
+    "static50": 0.5,
+    "static75": 0.75,
+    "flat100": 1.0,
+    "daily10": 0.1,
+    "daily25": 0.25,
+    "daily50": 0.5,
+    "daily75": 0.75
+  },
+  "capacity_rule": "max((1-beta)*d) + beta, fixed across the entire country year",
+  "pool_rule": "beta*24 per complete contiguous UTC day",
+  "routing_budgets": [
+    "current_R",
+    "fixed_R0"
+  ],
+  "restricted_eligibility": "minimum(interactive increment, domestic shortfall); both budget rules retain their stated total shortfall energy"
+}

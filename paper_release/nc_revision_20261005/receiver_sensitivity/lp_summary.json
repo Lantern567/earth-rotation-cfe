@@ -1,0 +1,33 @@
+{
+  "countries": 104,
+  "new_routing_lp_solves": 208,
+  "domestic_lp_reused": "Exact unchanged first-stage solution verified against saved hourly arrays; receiver exclusions cannot change the domestic optimum",
+  "baseline_cached_routing_solutions_verified": true,
+  "same_shortfall_39_median_percent": 12.208115725905058,
+  "same_shortfall_34_median_percent": 12.208115725904936,
+  "pipeline_39_median_percent": 12.36999853303838,
+  "pipeline_34_median_percent": 12.369998533038414,
+  "same_shortfall_34_minimum_percent": 5.527013203489747,
+  "pipeline_34_minimum_percent": 5.537846960548882,
+  "same_shortfall_positive_country_count": 104,
+  "pipeline_positive_country_count": 104,
+  "fixed_max_increase_pp": 0.11594951897183625,
+  "pipeline_max_increase_pp": 0.11594951897183625,
+  "certificate_max": {
+    "solver_status": 0.0,
+    "primal_objective": 4670.665672878208,
+    "dual_objective": 4670.665672878204,
+    "duality_gap_absolute": 3.774403012357652e-11,
+    "duality_gap_relative": 1.462267385777342e-14,
+    "primal_inequality_violation": 2.220446049250313e-15,
+    "primal_equality_violation": 4.3655745685100555e-11,
+    "primal_bound_violation": 0.0,
+    "dual_sign_violation": 0.0,
+    "dual_stationarity_violation": 4.092726157978177e-11,
+    "dual_reduced_cost_violation": 4.092726157978177e-11,
+    "complementarity_max": 1.7137301721356367e-11
+  },
+  "seconds": 200.41343010007404,
+  "original_script_sha256": "70be9f9f930bc4da802d2a93c396f12f02695ea11e79cf43b9b175eaf3324617",
+  "original_objective_csv_sha256": "b1173b0bd99821544ad56c1e26bf340457e32c5260948c8f32f66874d286753e"
+}

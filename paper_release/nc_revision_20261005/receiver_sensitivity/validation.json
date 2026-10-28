@@ -1,0 +1,16 @@
+{
+  "checks_passed": true,
+  "Fig2_rows_each": 3744,
+  "Fig2_global_countries": 104,
+  "LP_new_solves": 208,
+  "LP_optimality_and_feasibility_passed": true,
+  "LP_subset_monotonicity_passed_per_country": true,
+  "fixed_shortfall_LP_not_worse_than_NNLS_per_country": true,
+  "all_U_bounded_between_zero_and_domestic_shortfall": true,
+  "Uganda_100ms_original_only_receiver": [
+    "EG"
+  ],
+  "storage_full_hourly_supply_countries": 104,
+  "storage_unchanged_float32_input_countries": 93,
+  "storage_unchanged_input_max_total_cost_error_USD_per_MWh": 1.1368683772161605e-13
+}

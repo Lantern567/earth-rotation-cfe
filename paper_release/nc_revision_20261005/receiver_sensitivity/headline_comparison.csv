@@ -1,0 +1,17 @@
+metric,scenario,unit,value_39,value_34,difference_34_minus_39,difference_unit
+Fig2 domestic station NNLS U,"50 ms, phi=0; median across 104 countries",%,41.83240601401059,41.832406014010594,7.105427357601002e-15,pp
+Fig2 global station NNLS U,"500 ms, phi=1; median across 104 countries",%,12.71421177151815,12.714211771518153,3.552713678800501e-15,pp
+Fixed domestic NNLS shortfall: routing LP U,"500 ms, phi=1; median across 104 countries",%,12.208115725905058,12.208115725904936,-1.2256862191861728e-13,pp
+Domestic LP then routing LP U,"500 ms, phi=1; median across 104 countries",%,12.36999853303838,12.369998533038414,3.375077994860476e-14,pp
+2030 Mix country x technology domestic U,"50 ms, phi=0; median across 104 countries",%,33.280263970332406,33.280263970332406,0.0,pp
+2030 Mix country x technology global U,"500 ms, phi=1; median across 104 countries",%,13.858880913149074,13.85706948934341,-0.0018114238056643472,pp
+2030 Mix station basis domestic U,"50 ms, phi=0; new cross-basis calculation; median across 104 countries",%,42.213238118391935,42.213238118391935,0.0,pp
+2030 Mix station basis global U,"500 ms, phi=1; new cross-basis calculation; median across 104 countries",%,12.556884093507808,12.556884093507808,0.0,pp
+Fig3 mean covered fraction at 100 ms,"100 ms, phi=1; mean across 104 countries",%,13.966863986280414,13.45993944646745,-0.5069245398129638,pp
+Fig3 mean covered fraction at 150 ms,"150 ms, phi=1; mean across 104 countries",%,19.008994365084725,18.858491037908458,-0.15050332717626702,pp
+Fig3 mean covered fraction at 200 ms,"200 ms, phi=1; mean across 104 countries",%,22.34274280834576,22.34159448580499,-0.0011483225407715736,pp
+Fig3 mean covered fraction at 500 ms,"500 ms, phi=1; mean across 104 countries",%,26.58671590088351,26.58589365858074,-0.000822242302771059,pp
+Fig5 domestic 2030 firming premium,"50 ms, phi=0; unchanged domestic solution reused; median across 104 countries",%,60.79612401919438,60.79612401919438,0.0,pp
+Fig5 global 2030 firming premium,"500 ms, phi=1; median across 104 countries",%,56.137631002143706,56.137631002143706,0.0,pp
+Fig5 global 2030 total cost,"500 ms, phi=1; median across 104 countries",USD/MWh,184.30005261758868,184.30005261758868,0.0,USD/MWh
+Fig5 global 2030 storage cost,"500 ms, phi=1; median across 104 countries",USD/MWh,60.368289058846,60.368289058846,0.0,USD/MWh

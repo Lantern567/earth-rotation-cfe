@@ -1,0 +1,66 @@
+{
+  "numerical_results_recomputed": false,
+  "figure3_input_sha256": {
+    "r2_waveform_grid.csv": "872366804d289b8c824a0a3ee0baff3b7308fac9c59d9f1d84f6cd1f100c3cf2",
+    "r2_wf_compute_flows_tau100.csv": "6ecbe041305302fbcc29bd6330365aa8683c9dfe3448a2eab9c612a3a5ee3cea",
+    "r2_wf_compute_flows_tau150.csv": "38561ac16f93d11e064cc8ab224a539e3cc3ebb7a2719d0d7e94eb7cebae46f2",
+    "r2_wf_compute_flows_tau200.csv": "62c61078b3c221688cc4a2fed5292cba20b012095640a26562c0d3ba72caf4d2",
+    "r2_wf_compute_flows.csv": "3d04908d1b11ab699e5d26d7f95c414804d7d819f8d5a16c6ef512d43a6fdf22"
+  },
+  "figure5_input_sha256": {
+    "r3_dispatch_grid_2030.csv": "961bc51a1e59efe7ab7cd1130c3fac57244ca9cef022ed39286811a7656dc10b",
+    "r3_dispatch_yearly_phi1.csv": "52fe11cc2b651aea388454603c7d77c924c806324e86e6b19e4093f9936cac64"
+  },
+  "coordinate_labels": {
+    "Fig3": {
+      "maps": 4,
+      "longitude_degrees": [
+        -120,
+        -60,
+        0,
+        60,
+        120
+      ],
+      "latitude_degrees": [
+        -30,
+        0,
+        30,
+        60
+      ]
+    },
+    "Fig5": {
+      "maps": 3,
+      "longitude_degrees": [
+        -120,
+        -60,
+        0,
+        60,
+        120
+      ],
+      "latitude_degrees": [
+        -30,
+        0,
+        30,
+        60
+      ]
+    }
+  },
+  "outputs": {
+    "Fig3.pdf": {
+      "sha256": "c5e342052fd93cc59e89354f84465ec25a5ffe26bd8ed79767556c24cebe9ecd",
+      "bytes": 8211585
+    },
+    "Fig3.png": {
+      "sha256": "bdebb752d91506eb9ce63454faad8cff1006d5b3c3bfd2bdeac92f848fd4d6de",
+      "bytes": 4776208
+    },
+    "Fig5.pdf": {
+      "sha256": "44a167ca7d0a6335d206e4647fd9d502835100c13edd545d732ff810ad10f708",
+      "bytes": 11485996
+    },
+    "Fig5.png": {
+      "sha256": "c192acd8289359daa4baf2269e8018e10d4516edb9d8d58d77aab2f067df9403",
+      "bytes": 1712793
+    }
+  }
+}

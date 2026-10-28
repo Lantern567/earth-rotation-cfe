@@ -1,0 +1,64 @@
+{
+  "recording_scope": "Current interpreter/package probes and recorded generation commands. Current probes are not retrospective measurements of historical generation processes.",
+  "requirements_target": "Currently probed Python313 target verification environment; requirements_load_smoothing.txt; Python 3.13.5",
+  "current_probes": {
+    "python313": {
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "executable": "C:/Python313/python.exe",
+      "packages": {"numpy": "2.2.6", "pandas": "2.3.1", "scipy": "1.16.2", "pyarrow": "21.0.0", "threadpoolctl": "3.6.0", "matplotlib": "3.10.3", "Pillow": "11.3.0"},
+      "probe": "sys.version, sys.executable and importlib.metadata.version; explicit absolute interpreter path",
+      "verified_operation": "Delivered plot CSV validation after copying; no optimization or rendering"
+    },
+    "anaconda": {
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "executable": "D:/anaconda/python.exe",
+      "packages": {"numpy": "1.26.4", "pandas": "2.3.1", "scipy": "1.13.1", "pyarrow": "16.1.0", "threadpoolctl": "3.5.0", "matplotlib": "3.10.7", "Pillow": "12.2.0"},
+      "probe": "sys.version, sys.executable and importlib.metadata.version; unqualified python command",
+      "verified_operation": "Delivered plot CSV validation after copying; no optimization or rendering"
+    },
+    "bundled_tools": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "executable": "C:/Users/Lantern567/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "packages": {"numpy": "2.3.5", "pandas": "3.0.1", "scipy": "1.18.1", "pyarrow": "26.0.0", "threadpoolctl": "3.7.0", "matplotlib": "3.11.2", "Pillow": "12.3.0"},
+      "probe": "Root agent ran read_runtime_versions.py using the absolute bundled interpreter path; output preserved as runtime_versions_bundled.json in the task record",
+      "attribution": "Current tools probe; root reports this environment for later document QA/PDF work; no retrospective attribution to scientific generation"
+    }
+  },
+  "generation_records": {
+    "complete_nnls": {
+      "command": "python -X utf8 work/nc_r1_mismatch_robustness_20261011/run_sensitivity.py --nnls-only",
+      "recorded_execution_session": 76485,
+      "elapsed_seconds": 19.642150600091554,
+      "country_case_rows": 1040,
+      "historical_interpreter_and_package_versions": "not logged"
+    },
+    "complete_upper_lp": {
+      "command": "python -X utf8 work/nc_r1_mismatch_robustness_20261011/run_sensitivity.py --lp-cases base static25 static50 daily25 daily50 flat100",
+      "recorded_execution_session": 96967,
+      "elapsed_seconds": 831.6143787000328,
+      "unique_new_lp_solves": 1144,
+      "historical_interpreter_and_package_versions": "not logged",
+      "mathematical_record": "validation_full_compute.json; input_fingerprint.json; lp_solver_metrics.csv"
+    },
+    "checkpoint_verification": {
+      "command": "python -X utf8 work/nc_r1_mismatch_robustness_20261011/run_sensitivity.py --lp-cases base static25 static50 daily25 daily50 flat100",
+      "recorded_execution_session": 51413,
+      "elapsed_seconds": 16.981435199966654,
+      "unique_new_lp_solves": 0,
+      "mathematical_record": "validation.json"
+    },
+    "restricted_lp": {
+      "command": "& 'C:/Python313/python.exe' -X utf8 'work/nc_r1_mismatch_robustness_20261011/run_eligibility_lp.py'",
+      "recorded_completion_utc": "2026-10-11T04:01:10.844Z",
+      "elapsed_seconds": 238.860537200002,
+      "new_lp_solves": 416,
+      "recorded_interpreter_path": "C:/Python313/python.exe",
+      "historical_interpreter_and_package_versions": "not logged in the supplied numerical result records",
+      "mathematical_record": "../load_smoothing_eligibility/validation.json; input_fingerprint.json; lp_solver_metrics.csv"
+    },
+    "figure_artifacts": {
+      "historical_interpreter_and_package_versions": "not logged in FigS10_plot_metadata.json",
+      "provenance": "FigS10_plot_metadata.json records exact plotted input hashes; package manifest records script and delivered figure hashes"
+    }
+  }
+}

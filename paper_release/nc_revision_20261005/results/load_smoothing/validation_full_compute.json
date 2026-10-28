@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "countries": 104,
+  "cases_nnls": [
+    "base",
+    "static10",
+    "static25",
+    "static50",
+    "static75",
+    "flat100",
+    "daily10",
+    "daily25",
+    "daily50",
+    "daily75"
+  ],
+  "lp_cases_requested": [
+    "base",
+    "static25",
+    "static50",
+    "daily25",
+    "daily50",
+    "flat100"
+  ],
+  "lp_case_budget_rows": 1248,
+  "unique_new_lp_solves": 1144,
+  "lp_solve_seconds_median": 0.6667792000225745,
+  "lp_solve_seconds_max": 1.3890326999826357,
+  "estimated_104_country_two_budget_case_seconds_from_actual_pilot": 138.6900736046955,
+  "elapsed_seconds": 831.6143787000328,
+  "archived_baseline_max_errors": {
+    "domestic_error": 1.942890293094024e-16,
+    "routing_nnls_error": 5.551115123125783e-16,
+    "routing_lp_error": 3.3306690738754696e-16
+  },
+  "lp_measured_error_maxima": {
+    "duality_gap_absolute": 1.3005774235352874e-10,
+    "duality_gap_relative": 6.841883645527284e-14,
+    "primal_inequality_violation": 5.329070518200751e-15,
+    "primal_equality_violation": 9.094947017729282e-11,
+    "dual_stationarity_violation": 7.594280759803951e-11,
+    "dual_reduced_cost_violation": 7.594280759803951e-11
+  },
+  "configured_primal_tolerance": 1e-08,
+  "configured_dual_tolerance": 1e-08,
+  "configured_ipm_tolerance": 1e-09,
+  "independent_feasibility_acceptance_tolerance": 1e-07,
+  "independent_duality_relative_acceptance_tolerance": 1e-08,
+  "independent_duality_absolute_acceptance_tolerance": 1e-05,
+  "restricted_cases_are_nnls_procedural_comparisons": true,
+  "new_demand_requires_new_shortfall_certificate": true,
+  "request_scale_control_supply_scales_with_demand": true
+}

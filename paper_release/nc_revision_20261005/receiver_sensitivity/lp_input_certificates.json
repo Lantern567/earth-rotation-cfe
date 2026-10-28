@@ -1,0 +1,418 @@
+{
+  "AE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\AE.npz",
+    "sha256": "7eeb2e7f3c3cfa416bcf35d4d314d4865695fb0e0565951bfa3a7788c2363101"
+  },
+  "AF": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\AF.npz",
+    "sha256": "e1ac4eff85dbe9fd5b3980b4d9a23a9504c72c48b1a5b333714861e69db33892"
+  },
+  "AR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\AR.npz",
+    "sha256": "6a08d682cb7007495895239eb5b0157a3fa083e09df5b4286e7fc79b80c907e6"
+  },
+  "AT": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\AT.npz",
+    "sha256": "676ab81ebbfae658b6ae1d7f5911909ea3c68c7294061e93eda9bbd4cdeb8c35"
+  },
+  "AU": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\AU.npz",
+    "sha256": "30e6120b84125b106bda2b51fdb71d80016b81e2fc51e59b3a25ac9eb1725d4f"
+  },
+  "BD": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BD.npz",
+    "sha256": "604a81fa084a1228d01a389ad7a1899a2b4a30fc3b986f0d629cd8c099e469b5"
+  },
+  "BE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BE.npz",
+    "sha256": "ce5393661c10b60b91587ec0ed7c8a179bbd2cf96d331733949d2bb21fc420cc"
+  },
+  "BF": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BF.npz",
+    "sha256": "77d5bf76bed8c9d0f48b449b516ef6f3a79d0573ef376c6115707ee46e2a27b0"
+  },
+  "BG": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BG.npz",
+    "sha256": "4a6ea00dd29ba568d278f1b27a509a66e943c31cd76f96e675ca273a616c7fde"
+  },
+  "BH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BH.npz",
+    "sha256": "13308828c7dd044806f57bdc5b64caa27f7b2915e2f45e3615b2916e9e42c4d9"
+  },
+  "BI": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BI.npz",
+    "sha256": "29f73b7a63e00453878ac5ee3730f7233e0afa2d163b3d3185882cd42d837f26"
+  },
+  "BO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BO.npz",
+    "sha256": "68b09b6d4934d5e0c938a1c2d93e4bcd9b682c28f752a183cb4cfd025075a75a"
+  },
+  "BR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BR.npz",
+    "sha256": "6e4d1ec12cf28e8fe138c981296889535c62c42d5b97d338c7a09b8489a2651c"
+  },
+  "BY": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\BY.npz",
+    "sha256": "48dda4d2884ff5fb7506c2ec248114e057cb16ee5c4af7a7119b711d33c71d41"
+  },
+  "CA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CA.npz",
+    "sha256": "22cb1f79ca76f77895f7e692cba167160f360459a20e5526477e102ebec25c7c"
+  },
+  "CH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CH.npz",
+    "sha256": "03e1f8c280136c23b312d9953f7ac318b83d0d7e330209057bbc40956f5a7fba"
+  },
+  "CL": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CL.npz",
+    "sha256": "13cf182978c46174dbf13e051469c6511492122ae81e9b5a78f71f4e002a6272"
+  },
+  "CN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CN.npz",
+    "sha256": "d59bd29fe8f69f3b535c97c8d5a79f4d42feecfeba4b1753c6ba4eb7fa5e4dae"
+  },
+  "CO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CO.npz",
+    "sha256": "29ae7374fcb3c390a889b1f45c731c6de88b996e81437180e5b676b7ff983cda"
+  },
+  "CR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CR.npz",
+    "sha256": "afd811baa2ffe45eda410fee0cc3cb871f7c9b5ccab00a9082c8bfb4906fcd93"
+  },
+  "CU": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CU.npz",
+    "sha256": "621087c8939eb722d5a1b68f6f6eb98f6e8fdc5fd47656bdca663f88edce2ea1"
+  },
+  "CV": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CV.npz",
+    "sha256": "bd549099c0270939d5517cde735e4a3fb2ee93869e72f7538c2e209d8052c5c5"
+  },
+  "CZ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\CZ.npz",
+    "sha256": "f2c70251de4949b6cf5c683aa22cda31a2c2eca771060b92fdf49616a1cc2625"
+  },
+  "DE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\DE.npz",
+    "sha256": "beee6b6921184fa2d25f935084bec5cbfcb8662a133eec23c42ccf5bfb4b2c65"
+  },
+  "DK": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\DK.npz",
+    "sha256": "a35c569d9c5b015c15eec2b715fc8342ee7455966a5405eb5009c87413412d7d"
+  },
+  "DO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\DO.npz",
+    "sha256": "789c5354f9e4ff0ea3b41585965d5d7bc1ad04574d4e40c4256824cd033c2975"
+  },
+  "DZ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\DZ.npz",
+    "sha256": "e8a2db4094db1a2d2aeab36878ffee143f8c814135a3949693cd38434acb0e97"
+  },
+  "EC": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\EC.npz",
+    "sha256": "cb75edc5e344f631e36f1d54705b728d80740a3bc1f9b3052eb82502126c8ef7"
+  },
+  "EE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\EE.npz",
+    "sha256": "743806ea36758d9cf16d9baa1dbc9690f6adc2261fed316c913f5a664438d03b"
+  },
+  "EG": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\EG.npz",
+    "sha256": "a40bf15824717a3161ef903f3e56a01843959ac83040ad2aa38213c70d160858"
+  },
+  "ES": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\ES.npz",
+    "sha256": "a8209a841a2f788e857ed9dea132f4387691faee3e16828e91f3d0b885013649"
+  },
+  "ET": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\ET.npz",
+    "sha256": "af07a073891507cb3b217522652417dee859cdae13f0b3d8e2e248c3713cd349"
+  },
+  "FI": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\FI.npz",
+    "sha256": "aad1bf53f4873ebe65ea7dc4a8bf0927111942ce82d9787d953f6fe0dcb4fe92"
+  },
+  "FJ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\FJ.npz",
+    "sha256": "56fcf1dae5bcf8a1256ce4c6a657bc4f56d4e5282fa888557d37d9bfac0b6f9b"
+  },
+  "FR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\FR.npz",
+    "sha256": "91a5f52cc846764fd878eb99c73b1a7bcfbce4079b9a43196b0f90b41934a0b0"
+  },
+  "GB": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\GB.npz",
+    "sha256": "02fcc11833a977eedbedf83a54f5348153602a3e7ac76beb640f421c55740c68"
+  },
+  "GF": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\GF.npz",
+    "sha256": "79fbe5fe943f4cce1d8be0b2c48b9726a856e30ffdaaf08d41cbaa03119d9484"
+  },
+  "GH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\GH.npz",
+    "sha256": "0499af56945a3a35caef6269763be037b30f52a0d173167323c07d4898b15f41"
+  },
+  "GR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\GR.npz",
+    "sha256": "4a303827dc2af4a771fc055ceb05db7060dce1e63e6ee766f1a9a6edb176814a"
+  },
+  "GT": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\GT.npz",
+    "sha256": "62c801790e798245265113d588233f1e5faf5657a8921bf9ab8cca3ae65fafe4"
+  },
+  "HN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\HN.npz",
+    "sha256": "60b64c13ee120772b5cfbc4f3dd5eef9e422fe64b741ea9934aad6f5ead3240b"
+  },
+  "HU": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\HU.npz",
+    "sha256": "f2a0feff2dab11085e9a1116c338a948a4cf81675e2fd320e0c82497f0f003d7"
+  },
+  "ID": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\ID.npz",
+    "sha256": "055525a592994b66d44a05eeb179027835536cb615e6c106e370f4539f22b4c1"
+  },
+  "IE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\IE.npz",
+    "sha256": "0b860135b1ea83990dab129e788a2b3aeed4cfbbc65273f47eeaa7b68f4902d0"
+  },
+  "IL": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\IL.npz",
+    "sha256": "380ed270865fb0a0eae5d70c3955e555c5b68e88386a832899eeb8320a805f5c"
+  },
+  "IN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\IN.npz",
+    "sha256": "f3962cc1fa42f547c02d61cc201a1a2b3b52ded69ab9396f9c51052da5a307ae"
+  },
+  "IR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\IR.npz",
+    "sha256": "323f7ed258c74b3767b6b812572baab80d481d786299bc656ef6469c7854826c"
+  },
+  "IT": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\IT.npz",
+    "sha256": "286c165470875b628c2612c673ea68793c04463044e7157b0a9d590b713c33d8"
+  },
+  "JM": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\JM.npz",
+    "sha256": "dc20f852b743f443d5d669405290698dce19ede86113066e609ccbfdd37850de"
+  },
+  "JO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\JO.npz",
+    "sha256": "213e7236033425dda2f6cb54aa049d03ec8494fb40d7af32349181008a2aec93"
+  },
+  "JP": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\JP.npz",
+    "sha256": "ff9ae7a33d93e22435e5f75091a6dd9161ed29ba8ff94c38b45406995031a1de"
+  },
+  "KE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\KE.npz",
+    "sha256": "e8237695053962c9e35ca5f7a0b8e2aea8b8140cf4e41f8b7a8d4568c2d39e23"
+  },
+  "KH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\KH.npz",
+    "sha256": "f3acc1d020fdfacc2c660a9db6d200366a00fa98e9a69e13e14d2574cac1b936"
+  },
+  "KR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\KR.npz",
+    "sha256": "8466480b6e13a2d7cfb0dae6379ddd07de658fa48bc039dae9aa76a0826b731a"
+  },
+  "KW": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\KW.npz",
+    "sha256": "462801dd4e2960fce42588c6f43471058cd9db40e630692c7739b961a758d1f1"
+  },
+  "KZ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\KZ.npz",
+    "sha256": "1762302d55ffc5d06e69cf62778a66f4bed5c41110913da665bc459d0fc99416"
+  },
+  "LC": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\LC.npz",
+    "sha256": "f9b8eef8673b44cab5b7a835ea474d4b940d20ce3bad46cdcf40e1e043d30ab2"
+  },
+  "LK": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\LK.npz",
+    "sha256": "0f3f3d6200cb59934fd1000cee4e806a03c481bbd0c8a982baf3e252ec12bc35"
+  },
+  "LY": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\LY.npz",
+    "sha256": "cb0ba5db716f94d1b9abd1e15936bb8224b9934ac4f63adc1b43e235a74fb87a"
+  },
+  "MA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MA.npz",
+    "sha256": "6dec64b34eb521d6df0b23fe8dcd3f65475e7f6cc52ee8e8e520ab1a6b7249ed"
+  },
+  "MG": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MG.npz",
+    "sha256": "be1c37f8b2048df3a9ee7d373d2a20856d6763b232bbaa77c1e960b03afc58bb"
+  },
+  "MM": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MM.npz",
+    "sha256": "6e71735ac4450fb360cc43b080f8df08ac46aebb9fbf9850a48180ef43222183"
+  },
+  "MN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MN.npz",
+    "sha256": "f30dbe15767d266ecb024af1cd966952a4be6bcbb06d120d884f47779419d350"
+  },
+  "MR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MR.npz",
+    "sha256": "93d3ca5bd689d01505e2afc61d1c3295441fc34246fdb9039dd3c68007f45d13"
+  },
+  "MU": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MU.npz",
+    "sha256": "d44fd89caf5c8e6c6f678ce3c30fad8ad64142d0f3e86f67ad3c80f5f162b822"
+  },
+  "MX": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MX.npz",
+    "sha256": "6e4be307cb96a4842b89c4bdd8bbff1959e0d419adc19c589e941ad8e02c2ed4"
+  },
+  "MY": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\MY.npz",
+    "sha256": "474a960879a48dbc21f782f8f6c1c55086a8937310b025ebae0cd0ef66bded07"
+  },
+  "NE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NE.npz",
+    "sha256": "b096ed4dc9e0d59ef36c54e2d852e346c8d455387f88474a975f77893c4d8b47"
+  },
+  "NG": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NG.npz",
+    "sha256": "ca2688f8a4f79ad2347c36446b13b04f1ea725cf451c7fc948356c82e0906ece"
+  },
+  "NI": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NI.npz",
+    "sha256": "37a7d95f61e11c5cd9eeb98fffd1f897b2e02f6ff90027eaff82ff56a0dffef8"
+  },
+  "NL": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NL.npz",
+    "sha256": "820b75c4755acad1268f985c2582ade79e688f66b1dcd48dd5425907d16f7887"
+  },
+  "NO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NO.npz",
+    "sha256": "21feb3d77ce9bec4edd56938ce37cba9339d595712a51b96ed1dfe94150eb6a8"
+  },
+  "NP": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NP.npz",
+    "sha256": "bd148f913bf22a1806686226daf747efad84adfcff3190ea03e6ea5f740c0cbc"
+  },
+  "NZ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\NZ.npz",
+    "sha256": "17994951f0b0249215e3175e9fa40324943b042c1a0954ddd3085e321b55ba71"
+  },
+  "OM": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\OM.npz",
+    "sha256": "b3554bbd617e8b847c7bfcf90cdd84aa5ad30eff43a971ddf3692a5c71416574"
+  },
+  "PA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PA.npz",
+    "sha256": "fa3c7b9d0c5c078fe97833707217aa1738b4f2327dca3830d51a09fb1a8345ce"
+  },
+  "PE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PE.npz",
+    "sha256": "36ad11efeee6f1da018662478264d52ccfd069d6bd9ad021c3912831c81afe78"
+  },
+  "PH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PH.npz",
+    "sha256": "dbf42e8d069967f6e4eb2085124d7cf24ebd93de08315332019c9854c7c81359"
+  },
+  "PK": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PK.npz",
+    "sha256": "058f6a11a6a0161953fb8601f158f30c4c54abc7b3adddbf5bd0e68071cd0064"
+  },
+  "PL": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PL.npz",
+    "sha256": "238a08919d9d2723136fb3150cfac4b7186fd292d9a41461ac29ca3be37dbd16"
+  },
+  "PS": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PS.npz",
+    "sha256": "60a25e378a2e43440dc7da4e45bceebf380d73f4e00c1a61e9fc54c79507243c"
+  },
+  "PT": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PT.npz",
+    "sha256": "7988b8296b595e4acce9e94904cba1dd890222c695f400d2ed9ce81d431d7f0b"
+  },
+  "PY": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\PY.npz",
+    "sha256": "419a81349af12614bc4dad774042409822679c0b6488ec0eb6881db0066e05cd"
+  },
+  "RO": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\RO.npz",
+    "sha256": "7ba4c7fb428d5425dd75fd6f50ed3dac66627f220d16e0d0b67286fdb5ad53d1"
+  },
+  "RU": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\RU.npz",
+    "sha256": "55d897068ac49e85d3099de9ef7dd935bbe071378dfb92fb4c10d1ca890e3b27"
+  },
+  "RW": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\RW.npz",
+    "sha256": "5a9187f367c64a5d97043372ceaf842f480b7f0de3ab724f897ec2921580cb52"
+  },
+  "SA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SA.npz",
+    "sha256": "869982648207c1f21fe40f0c9eb0b0a47b5a055f4995900d389c5f57e1f77a2b"
+  },
+  "SE": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SE.npz",
+    "sha256": "a30a60078b5184e2d90b11ba223441ac145f78916ebc1db31242acadda184a54"
+  },
+  "SK": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SK.npz",
+    "sha256": "5daaffea428914fc804fe16d02dab700391838bfec2ea320af44a1ed2430a3a2"
+  },
+  "SN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SN.npz",
+    "sha256": "a28ba1a11a11033e57670852f8705f49fdce27d4df26847518f3a157c487a582"
+  },
+  "SR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SR.npz",
+    "sha256": "2bd21979297e182c34e5141335f2de3692ae5284940a7c6e9a3d21f803fbbcaf"
+  },
+  "SV": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\SV.npz",
+    "sha256": "7454f132e5dd9eb93f49a632075d96ab745a438b43fec479b2f24a8f0ef42503"
+  },
+  "TH": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\TH.npz",
+    "sha256": "23bcd150e72e29bd1414bbd61d78afaa18fc955c96d5d2c80c54346748192a56"
+  },
+  "TN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\TN.npz",
+    "sha256": "63e5a85c3fa7767493b3c6815e7aee326a7fca25280a6194522d33a109514c35"
+  },
+  "TR": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\TR.npz",
+    "sha256": "754d426de4cf746ebd4a0b8e29267175aebcf95f80b21dda0e281e7ab711c97c"
+  },
+  "TW": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\TW.npz",
+    "sha256": "e8bd80410e0ddcb574ec2093480454c694e46032cb2b929a6cee9fe8ed7d542d"
+  },
+  "UA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\UA.npz",
+    "sha256": "2d5f4a7d75097ceb5b82e03b88d0fe84a2f2ca04c66f8c0b091e30a7bd2862dd"
+  },
+  "UG": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\UG.npz",
+    "sha256": "8eb56961357d51f311decd7f098986cf47a3f259eb1b732bc7d8f0016820c75a"
+  },
+  "US": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\US.npz",
+    "sha256": "00659ffdd65ec65b583742bcfb2dc07b628ec58a88c3a5dac41761fccfee2446"
+  },
+  "UY": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\UY.npz",
+    "sha256": "6051c5a28f5c19a4e1eff661e9e2f32e313346852af65442c3702f244a37839e"
+  },
+  "UZ": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\UZ.npz",
+    "sha256": "cd28c0e7c988fd019cf56675b2b1617981e270ec4b6f1a6d895545ab683e4ca1"
+  },
+  "VN": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\VN.npz",
+    "sha256": "ef858db935289e45876fb5652de0b4c239543544af88d053266d16172d49f331"
+  },
+  "ZA": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\ZA.npz",
+    "sha256": "0f4261e0ca05674d0be4aace9883515178200ef6d6564db96b760754fa326865"
+  },
+  "ZM": {
+    "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\waveform\\certificates\\ZM.npz",
+    "sha256": "1c937600bdc91d8d81af2c1735d86b06944e29ba7b0b8c74af08d65c3b3e5f58"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rows": 3744,
+  "passed": true,
+  "max_absolute_U_error": 4.718447854656915e-16,
+  "reference": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\storage\\r3_dispatch_grid_2030.csv",
+  "source_hashes": {
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\collective_attention_research_plan\\scripts\\analyze_cfe_geographic_portfolio_ai.py": "defda7d663ab9ec2391ed78823488aac609b7288fd2067db8ef848e5655711c2",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\collective_attention_research_plan\\scripts\\analyze_cfe_global_sites.py": "1ad8a2fb215c5145577a738be16b82bab504988a2789f1896b8888650dcc164c",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\collective_attention_research_plan\\scripts\\analyze_cfe_r3_waveform_cost.py": "2d6ac2290a75b6f586263bc0791954de1ec14395677ca9acbc35f47639cd10d0"
+  },
+  "seconds": 9.64168499992229,
+  "execution": "Original AST function definitions, with module-level filesystem side effects omitted; original function bodies unchanged"
+}

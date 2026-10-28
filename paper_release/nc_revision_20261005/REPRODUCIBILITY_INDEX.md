@@ -21,6 +21,26 @@ For a frozen-result inspection, restore `results/waveform/hourly_separating_vect
 | SI S28 | `scripts/power/plot_and_price_power_case.py` | Frozen-ledger hypothetical prices and fee thresholds; no observed tariff or contract claim |
 | Revised Figure 5 and Fig S9 | `scripts/figures/plot_strict_revision.py` | PDF and 300-dpi PNG figures from complete strict tables; Figure 5 retains the submitted four-panel presentation |
 
+## Final SI additions 28 October 2026
+
+The existing [v1.2.0-nc-revision release](https://github.com/Lantern567/earth-rotation-cfe/releases/tag/v1.2.0-nc-revision) provides `NC_Revision_Reproducibility_Package_20261028_v3.zip` and the incremental `NC_Revision_Update_20261028.zip`. Extract both into the same directory. Paths below are relative to `Reproducibility_Package` in the downloaded assets, or this package directory for the committed additions. `PUBLIC_UPDATE_MANIFEST_20261028.json` records the files supplied by the incremental release, including figures distributed as assets.
+
+| Final output | Inputs and code | Frozen evidence |
+| --- | --- | --- |
+| SI S31, Figure S10 | `scripts/load_smoothing/run_sensitivity.py`, `run_eligibility_lp.py`, `plot_mismatch_sensitivity.py`; `requirements_load_smoothing.txt`; hourly inputs in the complete archive | `results/load_smoothing/FigS10_plot_values.csv`, `FigS10_plot_metadata.json`; matching and eligibility tables in `results/load_smoothing/` and `results/load_smoothing_eligibility/` |
+| SI S32, Table S43 | Official provider evidence at the 2025-12-31 operating-region cutoff | `revision_integration/Receiver_Region_Evidence_20261028_v2.csv` |
+| SI S32, Table S44 | Original 39 receiver candidates versus 34 operating-region countries; all 104 demand countries retained | `receiver_sensitivity/headline_comparison.csv`, `fig2_heatmap_comparison.csv`, `top10_any_tier_affected_countries.csv`, LP and 2030 dispatch comparison CSV/JSON files; original generation scripts and provenance in that directory |
+| Coordinate-labelled Figures 3 and 5 | `revision_audit/render_maps.py` and `revision_audit/plotting/`; frozen original routing and storage tables | Original PDF/PNG figures in the current release assets; input and plotting checks in `revision_audit/map_redraw_validation.json` |
+
+To verify Figure S10 plotting values without optimization:
+
+```text
+python -m pip install -r requirements_load_smoothing.txt
+python -B scripts/load_smoothing/plot_mismatch_sensitivity.py --input-dir results/load_smoothing --eligibility-dir results/load_smoothing_eligibility --output-dir figures
+```
+
+Receiver generation scripts retain their original audit execution layout; their path initialization is recorded as provenance. The complete archive supplies the original waveform and storage entry points and the hourly input files. See `README_PUBLIC_UPDATE_20261028.md` for map drawing commands and current publication details.
+
 ## Distinct calculation stages
 
 Figures 2 and 3 retain the initial domestic NNLS fit and subtract capped partner coverage from its shortfall, with no post-routing domestic refit. Counterfactual domestic-refit tables are separate sensitivity outputs.

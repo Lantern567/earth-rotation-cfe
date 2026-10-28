@@ -6,6 +6,8 @@ The Nature Communications revision package is in [`paper_release/nc_revision_202
 
 ## Reproduce the paper
 
+The **28 October 2026 update** is distributed on the same [fixed NC revision release](https://github.com/Lantern567/earth-rotation-cfe/releases/tag/v1.2.0-nc-revision). Download `NC_Revision_Reproducibility_Package_20261028_v3.zip` for the complete current scientific archive, then extract `NC_Revision_Update_20261028.zip` into the same directory. Start with `Reproducibility_Package/README_PUBLIC_UPDATE_20261028.md`. The release tag remains at commit `b50e3685ecdb44a7feb44ccdcea39f41561d0abc`; the automatically generated Git source archive retains that October 5 snapshot. The release update includes Figure S10 source data and scripts, receiver eligibility evidence and sensitivity, coordinate-labelled maps and their drawing scripts, and the eight restored hourly inputs. The asset checksums are in `NC_Release_Update_20261028_SHA256SUMS.txt`.
+
 1. Use the NC revision tag `v1.2.0-nc-revision` and follow the [NC package README](paper_release/nc_revision_20261005/README.md).
 2. Restore the large hourly certificate file from the [complete NC release](https://github.com/Lantern567/earth-rotation-cfe/releases/tag/v1.2.0-nc-revision) before checking all supplied hourly certificates. The README provides its location and SHA-256.
 3. Trace each result with the [NC reproducibility index](paper_release/nc_revision_20261005/REPRODUCIBILITY_INDEX.md) and use the component requirements and commands from the package directory.

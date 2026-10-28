@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pairs": 624,
+  "annual_share_tolerance": 1e-08,
+  "minimum_restricted_minus_upper_pp": -3.0531133177191805e-14,
+  "violating_pairs": 0,
+  "upper_source_sha256": "22382ed07aa76d319012ca555c9754012f5b7b67f249bf8396e65e2b67aec9ed"
+}

@@ -1,0 +1,45 @@
+{
+  "source_sha256": {
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\storage\\r3_dispatch_grid_2030.csv": "961bc51a1e59efe7ab7cd1130c3fac57244ca9cef022ed39286811a7656dc10b",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\storage\\r3_dispatch_yearly_phi1.csv": "52fe11cc2b651aea388454603c7d77c924c806324e86e6b19e4093f9936cac64"
+  },
+  "countries": 104,
+  "rows": 6864,
+  "unmet_mwh_max": 0.0,
+  "firm_share_min": 1.0,
+  "solver_status": [
+    0.0
+  ],
+  "premium_2030_country_median_pct": {
+    "50": 60.79612401919438,
+    "100": 61.91608995747067,
+    "150": 57.74786279098713,
+    "200": 57.27842135871924,
+    "300": 56.137631002143706,
+    "500": 56.137631002143706
+  },
+  "rose_aggregation": "Ratio of country-mean storage/ancillary cost to country-mean generation cost, as in the submitted plotting code",
+  "ridgeline_input_countries_per_year_and_facet": 104,
+  "ridgeline_kde_bandwidth_factor": 0.42,
+  "ridgeline_premium_range_pct": [
+    0,
+    260.0
+  ],
+  "maximum_country_premium_pct": 257.8074973139193,
+  "annual_trajectory_aggregation": "Within-year, within-RTT-budget median of all 104 country premiums",
+  "cost_boundary": "Remaining domestic load after routing and domestic refit; receiver and computing/network costs excluded",
+  "network_budget": "Additional-network RTT budget",
+  "layout": "Original four panels: waterfall, 36-sector polar rose, two ridgelines with six-budget annual trajectories, three Robinson maps",
+  "canvas_inches": [
+    13.2,
+    12.8
+  ],
+  "png_pixels": [
+    3814,
+    3672
+  ],
+  "pdf_page_points": [
+    915.2091064453125,
+    881.1353759765625
+  ]
+}
