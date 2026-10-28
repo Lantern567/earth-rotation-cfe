@@ -4,6 +4,14 @@ This package accompanies **Chasing wind and sun narrows but does not close the s
 
 ## Contents and execution directory
 
+### Public update 28 October 2026
+
+The current scientific archive is the release asset [NC_Revision_Reproducibility_Package_20261028_v3.zip](https://github.com/Lantern567/earth-rotation-cfe/releases/download/v1.2.0-nc-revision/NC_Revision_Reproducibility_Package_20261028_v3.zip). Extract [NC_Revision_Update_20261028.zip](https://github.com/Lantern567/earth-rotation-cfe/releases/download/v1.2.0-nc-revision/NC_Revision_Update_20261028.zip) into the same directory and follow `Reproducibility_Package/README_PUBLIC_UPDATE_20261028.md`. This supplies the final SI S31/S32 additions, current receiver evidence, coordinate-labelled Figure 3 and Figure 5, and their code. The complete archive contains all eight hourly inputs and the unchanged 63-sheet Source Data workbook. The incremental archive excludes large job pickle files and duplicate input copies.
+
+The tag `v1.2.0-nc-revision` remains at commit `b50e3685ecdb44a7feb44ccdcea39f41561d0abc`. The October 5 assets and Git source snapshot remain available. Release notes and `NC_Release_Update_20261028_SHA256SUMS.txt` identify the current assets and hashes. The archive's dated audit READMEs retain their generation history; the public-update guide records the current publication status.
+
+Figure S10's portable verification command is given in the public-update guide. Receiver generation scripts preserve the original audit layout as provenance; the complete archive provides the original analysis functions, inputs and numerical certificates. Figure S10 is in SI S31; Tables S43-S44 concern receiver eligibility in SI S32.
+
 Run all commands below from this directory:
 
 ```text

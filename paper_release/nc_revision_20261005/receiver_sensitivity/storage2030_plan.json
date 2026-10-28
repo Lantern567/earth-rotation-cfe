@@ -1,0 +1,20 @@
+{
+  "global_104_serial_seconds_from_saved_runs": 2957.4382321834564,
+  "full_grid_3744_serial_seconds_from_saved_runs": 67924.67918038368,
+  "workers": 4,
+  "global_104_rough_parallel_seconds": 739.3595580458641,
+  "cached_input_path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\work\\nc_revision_20261002\\storage\\dispatch_inputs_2030.pkl",
+  "cached_input_sha256": "5a56c9ebf4496f1797fb173a2edcda86604517a0a59fab65f59659110b090115",
+  "reference_path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\results\\storage\\r3_dispatch_grid_2030.csv",
+  "reference_sha256": "961bc51a1e59efe7ab7cd1130c3fac57244ca9cef022ed39286811a7656dc10b",
+  "scope": "104 new global corner strict hourly dispatch solves; unchanged local corner reused",
+  "front_half_max_errors": {
+    "d_mw_error": 0.0,
+    "fit_mw_error": 0.0,
+    "gen1_error": 0.0,
+    "anc1_error": 0.0,
+    "ecl_error": 0.0,
+    "ecd_error": 0.0,
+    "unc_error": 4.718447854656915e-16
+  }
+}

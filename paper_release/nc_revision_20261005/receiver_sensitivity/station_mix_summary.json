@@ -1,0 +1,23 @@
+{
+  "station_Mix2030": {
+    "domestic_U": {
+      "34": 42.213238118391935,
+      "39": 42.213238118391935
+    },
+    "global_U": {
+      "34": 12.556884093507808,
+      "39": 12.556884093507808
+    }
+  },
+  "business39_reproduction_max_absolute_errors": {
+    "domestic_uncovered_share": 0.0,
+    "routed_uncovered_share": 0.0
+  },
+  "consumer_profile": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\inputs\\reference\\figS2\\burstgpt_diurnal_fit_v2.csv",
+  "consumer_profile_sha256": "6e6807a12fdeae0f0f2c63ee4291b7812111f1ed9044128f3cf476f0bb6589f5",
+  "business_all_520_positive_country_scenarios": true,
+  "station_mix_all_104_positive_countries": true,
+  "station_mix_max_relative_energy_error": 2.220446049250313e-16,
+  "seconds": 17.48252570000477,
+  "scope": "Unmodified waveform mix_analysis for business/consumer sweep; original operator_mix with original station fit/routing for new cross-basis 2030 Mix corner comparison"
+}

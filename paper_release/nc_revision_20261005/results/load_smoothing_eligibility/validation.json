@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "countries": 104,
+  "new_solved_country_case_rows": 416,
+  "reference_rows": 208,
+  "total_rows": 624,
+  "solver_certificates": 416,
+  "all_cases_positive": true,
+  "maximum_budget_absolute_error": 5.002220859751105e-11,
+  "maximum_objective_absolute_error": 3.979039320256561e-12,
+  "maximum_annual_energy_relative_error": 8.326672684688674e-15,
+  "maximum_background_pool_error": 5.736744412843109e-12,
+  "maximum_capacity_violation": 0.0,
+  "certificate_maxima": {
+    "duality_gap_absolute": 1.0868461686186492e-10,
+    "duality_gap_relative": 5.964561295231613e-14,
+    "primal_inequality_violation": 1.021405182655144e-14,
+    "primal_equality_violation": 2.4010660126805305e-10,
+    "primal_bound_violation": 0.0,
+    "dual_stationarity_violation": 6.548361852765083e-11,
+    "dual_reduced_cost_violation": 6.548361852765083e-11
+  },
+  "nested_comparison": {
+    "status": "passed",
+    "pairs": 624,
+    "annual_share_tolerance": 1e-08,
+    "minimum_restricted_minus_upper_pp": -3.0531133177191805e-14,
+    "violating_pairs": 0,
+    "upper_source_sha256": "22382ed07aa76d319012ca555c9754012f5b7b67f249bf8396e65e2b67aec9ed"
+  },
+  "elapsed_seconds": 238.860537200002
+}

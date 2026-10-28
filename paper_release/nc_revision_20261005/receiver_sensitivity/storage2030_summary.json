@@ -1,0 +1,23 @@
+{
+  "countries": 104,
+  "year": 2030,
+  "global_new_solves": 104,
+  "domestic_median_firming_premium_percent_39_and_34": 60.79612401919438,
+  "global_39_median_firming_premium_percent": 56.137631002143706,
+  "global_34_median_firming_premium_percent": 56.137631002143706,
+  "global_39_median_total_cost_USD_per_MWh": 184.30005261758868,
+  "global_34_median_total_cost_USD_per_MWh": 184.30005261758868,
+  "global_39_median_storage_cost_USD_per_MWh": 60.368289058846,
+  "global_34_median_storage_cost_USD_per_MWh": 60.368289058846,
+  "global_max_absolute_country_premium_change_pp": 3.6356620058645177,
+  "all_full_hourly_supply": true,
+  "maximum_equality_error_MW": 2.837623469531536e-10,
+  "maximum_inequality_violation_MW": 8.384404281969182e-13,
+  "maximum_bound_violation": 2.2737367544323206e-13,
+  "seconds": 366.63877630000934,
+  "source_hashes": {
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\collective_attention_research_plan\\scripts\\run_dispatch_cost_full.py": "19e48d2abd0ed3dd2bee8e8e2fd2dfec7688917249d354e0f050bb1517b489f1",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\collective_attention_research_plan\\scripts\\fullsystem_cost_params.py": "23bc70f5299da450773f2410f8ce5f55264cb356364519e247d0ceed6e3c87d5",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\scripts\\storage\\strict_storage_dispatch.py": "cfd29f4f1c5a3844639e21e2e832390fd379e86e6f8f5f8e698142cee43b5831"
+  }
+}

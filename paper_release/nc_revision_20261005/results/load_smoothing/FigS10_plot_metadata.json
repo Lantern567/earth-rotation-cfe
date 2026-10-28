@@ -1,0 +1,29 @@
+{
+  "input_files": {
+    "routing_results.csv": {
+      "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt\u7684\u6587\u7ae0\\work\\nc_r1_mismatch_robustness_20261011\\results\\routing_results.csv",
+      "sha256": "22382ed07aa76d319012ca555c9754012f5b7b67f249bf8396e65e2b67aec9ed"
+    },
+    "country_results.csv": {
+      "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt\u7684\u6587\u7ae0\\work\\nc_r1_mismatch_robustness_20261011\\results\\country_results.csv",
+      "sha256": "637fdcac9d0f2e42da6fd2d3dc1b3d52257c7adc4e76eb2a40f4cc70d498953c"
+    },
+    "eligibility_lp_results.csv": {
+      "path": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt\u7684\u6587\u7ae0\\work\\nc_r1_mismatch_robustness_20261011\\results_eligibility\\routing_results.csv",
+      "sha256": "dcf9377155f16997c4fa86b7515cd5fcaf3a2f4be9439add059c84baed94bde5"
+    }
+  },
+  "methods": {
+    "a": "NNLS",
+    "b": "NNLS",
+    "c": "NNLS",
+    "d": "LP"
+  },
+  "countries": 104,
+  "width_in": 6.15,
+  "height_in": 5.5,
+  "dpi": 300,
+  "sampling_confidence_intervals": false,
+  "caption_english": "Figure S10 | Conditional annual power-shape sensitivity to fixed and finite background components. a, Country-median annual uncovered fraction U from the original NNLS procedure, with all components permitted in the matching comparison. Domestic generation is refitted and partner annual energy is set to each scenario's domestic shortfall. Points retain every tested component share; the daily-pool series joins the common zero-share baseline. b, Empirical cumulative distributions of country-paired changes in U at a 50% component share, relative to the same country's baseline, in percentage points. c, At the same 50% share, country medians under the original refit-and-budget procedure, refitted domestic generation with the baseline partner annual-energy budget, and unchanged baseline hourly domestic-plus-partner supply. d, Country-paired U at a 50% share when all components are permitted versus when only the interactive component may be routed, using the same unmatched-energy LP objective, domestic shortfall and partner annual-energy budget. Each point denotes a country; diamonds denote component-wise country medians, and the dashed line denotes equality. Panels a\u2013c use the original NNLS procedure; panel d uses the metric-aligned LP. All countries are retained without sampling confidence intervals. Annual demand energy is conserved within each shape scenario. Component shares and daily scheduling are assumptions; these comparisons describe normalized power shapes and do not measure global or facility electricity.",
+  "source_scope": "Conditional annual power-shape sensitivity"
+}

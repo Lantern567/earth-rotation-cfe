@@ -1,0 +1,16 @@
+{
+  "year": 2030,
+  "countries": 104,
+  "inference_share": 0.308,
+  "training_share": 0.132,
+  "domestic_39_median_percent": 33.280263970332406,
+  "domestic_34_median_percent": 33.280263970332406,
+  "global_39_median_percent": 13.858880913149074,
+  "global_34_median_percent": 13.85706948934341,
+  "max_absolute_heatmap_difference_pp": 0.30814436375079524,
+  "max_absolute_country_difference_pp": 11.450232250803595,
+  "global_max_absolute_country_difference_pp": 0.10974138557486302,
+  "global_34_positive_country_count": 104,
+  "max_relative_annual_energy_error": 4.440892098500626e-16,
+  "seconds": 20.040979400044307
+}

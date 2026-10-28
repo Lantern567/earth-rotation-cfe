@@ -1,0 +1,65 @@
+{
+  "runtime": {
+    "executable": "C:\\Python313\\python.exe",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "scipy": "1.16.2"
+  },
+  "inputs": {
+    "country_meta.csv": {
+      "path_used": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\.codex-temp\\nc-v18-audit-fix-20261028\\receiver_sensitivity\\inputs\\country_meta.csv",
+      "sha256": "cb26abfe74728b4133211482c03ca7f6957cf26fc74d72016a3e7bb3bacdd1cd",
+      "archive": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\NC_Revision_Package.zip",
+      "archive_member": "NC返修_20261002/Reproducibility_Package/inputs/hourly/country_meta.csv",
+      "bytes": 4096,
+      "archived_manifest_sha256_matches": true
+    },
+    "country_hourly_demand.csv.gz": {
+      "path_used": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\.codex-temp\\nc-v18-audit-fix-20261028\\receiver_sensitivity\\inputs\\country_hourly_demand.csv.gz",
+      "sha256": "a6a352bc9df3e71cc32fbb7da4919c948c72c0a01f27598849ba3f803e60dc12",
+      "archive": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\NC_Revision_Package.zip",
+      "archive_member": "NC返修_20261002/Reproducibility_Package/inputs/hourly/country_hourly_demand.csv.gz",
+      "bytes": 18183221,
+      "archived_manifest_sha256_matches": true
+    },
+    "site_hourly_cf.parquet": {
+      "path_used": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\.codex-temp\\nc-v18-audit-fix-20261028\\receiver_sensitivity\\inputs\\site_hourly_cf.parquet",
+      "sha256": "911a2e9bd7e88752075edaf8d825152cb02e0ac877df1504627bcbd6ad49af80",
+      "archive": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\NC_Revision_Package.zip",
+      "archive_member": "NC返修_20261002/Reproducibility_Package/inputs/hourly/site_hourly_cf.parquet",
+      "bytes": 14585527,
+      "archived_manifest_sha256_matches": true
+    },
+    "country_hourly_cf.parquet": {
+      "path_used": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\.codex-temp\\nc-v18-audit-fix-20261028\\receiver_sensitivity\\inputs\\country_hourly_cf.parquet",
+      "sha256": "7d6446125ca60f76e8f5e29f7f5060929d974fbce1050077b4535dcd5d92ee08",
+      "archive": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\NC_Revision_Package.zip",
+      "archive_member": "NC返修_20261002/Reproducibility_Package/inputs/hourly/country_hourly_cf.parquet",
+      "bytes": 10786898,
+      "archived_manifest_sha256_matches": true
+    },
+    "country_capacity.csv": {
+      "path_used": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\.codex-temp\\nc-v18-audit-fix-20261028\\receiver_sensitivity\\inputs\\country_capacity.csv",
+      "sha256": "dffa4ae1a2e005efa2a0271e73e1fc73d65f62499f0bf6da07d840e228a42d9c",
+      "archive": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\NC_Revision_Package.zip",
+      "archive_member": "NC返修_20261002/Reproducibility_Package/inputs/hourly/country_capacity.csv",
+      "bytes": 13235,
+      "archived_manifest_sha256_matches": true
+    }
+  },
+  "original_script": "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\scripts\\waveform\\run_waveform_revision.py",
+  "original_script_sha256": "70be9f9f930bc4da802d2a93c396f12f02695ea11e79cf43b9b175eaf3324617",
+  "archive_sha256": "aaef38a230a679d306a9d349eaea879a992407cc82342b1f0134428fc386fd7f",
+  "excluded_receivers": [
+    "DK",
+    "EG",
+    "GR",
+    "KW",
+    "TR"
+  ],
+  "protected_input_sha256": {
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\scripts\\waveform\\run_waveform_revision.py": "70be9f9f930bc4da802d2a93c396f12f02695ea11e79cf43b9b175eaf3324617",
+    "C:\\Users\\Lantern567\\Documents\\ChatGPT\\ljt的文章\\NC返修_20261002\\Reproducibility_Package\\inputs\\reference\\waveform\\r2_waveform_grid.csv": "872366804d289b8c824a0a3ee0baff3b7308fac9c59d9f1d84f6cd1f100c3cf2"
+  }
+}
