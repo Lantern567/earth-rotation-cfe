@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "r2_waveform_grid.csv": "872366804d289b8c824a0a3ee0baff3b7308fac9c59d9f1d84f6cd1f100c3cf2",
+    "r2_wf_compute_flows_tau100.csv": "6ecbe041305302fbcc29bd6330365aa8683c9dfe3448a2eab9c612a3a5ee3cea",
+    "r2_wf_compute_flows_tau150.csv": "38561ac16f93d11e064cc8ab224a539e3cc3ebb7a2719d0d7e94eb7cebae46f2",
+    "r2_wf_compute_flows_tau200.csv": "62c61078b3c221688cc4a2fed5292cba20b012095640a26562c0d3ba72caf4d2",
+    "r2_wf_compute_flows.csv": "3d04908d1b11ab699e5d26d7f95c414804d7d819f8d5a16c6ef512d43a6fdf22"
+  },
+  "displayed_budgets_ms": [
+    100,
+    150,
+    200,
+    500
+  ],
+  "labels": [
+    "τ = 100 ms",
+    "τ = 150 ms",
+    "τ = 200 ms",
+    "τ = 500 ms"
+  ],
+  "maps": 4,
+  "optimization_run": false
+}
