@@ -1,6 +1,6 @@
 # Nature Communications revision: code, inputs and results
 
-This package accompanies **Chasing wind and sun narrows but does not close the same-hour clean-power gap for interactive data centres**. Its version is `v1.2.0-nc-revision`, dated 5 October 2026. The earlier `v1.1.0-submission` tag identifies an earlier release. Reviewed input versions and hashes are retained in `inputs/reviewed_submission/input_hashes.json` and the public manifest.
+This package accompanies **Chasing wind and sun leaves hourly clean power gaps for data centres serving interactive workloads**. Its version is `v1.2.0-nc-revision`, dated 5 October 2026. The earlier `v1.1.0-submission` tag identifies an earlier release. Reviewed input versions and hashes are retained in `inputs/reviewed_submission/input_hashes.json` and the public manifest.
 
 ## Contents and execution directory
 

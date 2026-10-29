@@ -1,6 +1,6 @@
-# Chasing wind and sun narrows but does not close the same-hour clean-power gap for interactive data centres
+# Chasing wind and sun leaves hourly clean power gaps for data centres serving interactive workloads
 
-Official code and data repository for **“Chasing wind and sun narrows but does not close the same-hour clean-power gap for interactive data centres.”**
+Official code and data repository for **“Chasing wind and sun leaves hourly clean power gaps for data centres serving interactive workloads”**.
 
 The Nature Communications revision package is in [`paper_release/nc_revision_20261005/`](paper_release/nc_revision_20261005/). It includes analysis and plotting code, derived hourly inputs, complete result tables, frozen figures, source data and exact reconstruction commands.
 
