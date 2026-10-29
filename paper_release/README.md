@@ -1,6 +1,6 @@
 # Paper release
 
-This directory is the reproducibility package for **Chasing wind and sun narrows but does not close the data-centre clean-power gap**.
+This directory is the reproducibility package for **Chasing wind and sun leaves hourly clean power gaps for data centres serving interactive workloads**.
 
 ## Contents
 

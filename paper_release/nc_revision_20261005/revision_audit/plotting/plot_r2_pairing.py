@@ -38,7 +38,7 @@ SCEN = [
     ("τ = 100 ms", "r2_wf_compute_flows_tau100.csv", 100, "≈3 Mm · regional"),
     ("τ = 150 ms", "r2_wf_compute_flows_tau150.csv", 150, "≈6.7 Mm · cross-continental"),
     ("τ = 200 ms", "r2_wf_compute_flows_tau200.csv", 200, "≈10 Mm · half the globe"),
-    ("τ ≥ 300 ms", "r2_wf_compute_flows.csv", 500, "global reach"),
+    ("τ = 500 ms", "r2_wf_compute_flows.csv", 500, "global reach"),
 ]
 
 DODGE = {"CL": (-3, -8), "MX": (-4, -8), "NZ": (6, -5), "NO": (-6, 7), "US": (-3, -7),
@@ -137,6 +137,7 @@ def main():
                           hspace=0.10, wspace=0.03, width_ratios=[1.18, 1.0])
     letters = "abcdefgh"
     for i, (tlab, fname, gtau, reach) in enumerate(SCEN):
+        assert tlab == f"τ = {gtau} ms", (tlab, gtau)
         flows = pd.read_csv(DATA / fname)
         ax_m = fig.add_subplot(gs[i, 0], projection=ccrs.Robinson(central_longitude=10))
         draw_flow_map(ax_m, flows, cen, show_legend=(i == len(SCEN) - 1))
