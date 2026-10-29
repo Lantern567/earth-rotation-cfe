@@ -4,19 +4,20 @@ split, 2024-2050.
 
 Two panels (double-column, ~7.0 x 3.0 in), English-only, colorblind-safe.
 
-  (a) The logistic lambda_AI(t) over 2024-2050 with anchor mid-points
-      (2025/2030/2050), source-range uncertainty (2030 [0.35,0.50],
+  (a) An approximate logistic display fit over 2024-2050 with adopted anchors
+      (2025/2030/2040/2050), source-range uncertainty (2030 [0.35,0.50],
       2050 [0.60,0.80]) and the individual Gartner / EDNA source estimates.
   (b) Decomposition: stacked lambda_inf (drives the intraday shape operators)
       + lambda_train (flat training baseload) summing to lambda_AI, with the
       inference fraction f_inf overlaid on a secondary right axis.
 
-Style mirrors the rest of the SI (plot_fig3_redesign.set_style / plot_figS_ai_
-operators): DejaVu Sans, INK/GRID palette, clean spines, no subplot titles, no
-boxed on-plot notes, bold (a)/(b) panel labels. Data read directly from
-reports/ai_inference_growth_curve_fit/.
+The inference and training components follow the four anchors in the analysis
+code, with piecewise linear interpolation; the inference fraction is their
+ratio. The logistic fit is displayed separately from these model inputs.
 """
 from __future__ import annotations
+import argparse
+import csv
 import json
 import warnings
 from pathlib import Path
@@ -28,9 +29,8 @@ warnings.filterwarnings("ignore")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent.parent
-FIT_DIR = ROOT / "collective_attention_research_plan" / "reports" / "ai_inference_growth_curve_fit"
-FIG = ROOT / "collective_attention_research_plan" / "reports" / "cfe_geographic_portfolio_ai" / "figures_globalsites"
-FIG.mkdir(parents=True, exist_ok=True)
+FIG = SCRIPT_DIR.parent / "figures"
+FIT_PARAMETERS = {"floor": 0.02, "ceiling": 0.70, "k": 0.31, "year_midpoint": 2028.6}
 
 # ---- palette / style (consistent with the SI figures) --------------------
 INK = "#111827"
@@ -60,11 +60,8 @@ def set_style(fs=8.5):
 
 
 def load():
-    with open(FIT_DIR / "lambda_logistic_fit.json", encoding="utf-8") as fh:
-        fit = json.load(fh)
-    with open(FIT_DIR / "lambda_triangulation_summary.json", encoding="utf-8") as fh:
-        summ = json.load(fh)
-    return fit, summ
+    # S2 的近似拟合参数仅用于展示，不生成模型输入。
+    return FIT_PARAMETERS.copy()
 
 
 def lambda_ai(t, fit):
@@ -74,22 +71,29 @@ def lambda_ai(t, fit):
 
 
 # ---- anchor numbers the figure must honour (SI tables, rounded mids) ------
-ANCHOR_YEARS = [2025, 2030, 2050]
-LAM_AI = {2025: 0.20, 2030: 0.44, 2050: 0.70}
-LAM_INF = {2025: 0.130, 2030: 0.308, 2050: 0.560}
-LAM_TRAIN = {2025: 0.070, 2030: 0.132, 2050: 0.140}
-F_INF = {2025: 0.65, 2030: 0.70, 2050: 0.80}
+ANCHOR_YEARS = [2025, 2030, 2040, 2050]
+LAM_INF = {2025: 0.130, 2030: 0.308, 2040: 0.510, 2050: 0.560}
+LAM_TRAIN = {2025: 0.070, 2030: 0.132, 2040: 0.170, 2050: 0.140}
+LAM_AI = {year: LAM_INF[year] + LAM_TRAIN[year] for year in ANCHOR_YEARS}
+F_INF = {year: LAM_INF[year] / LAM_AI[year] for year in ANCHOR_YEARS}
 # source ranges shown as uncertainty bands / error bars on lambda_AI
 RANGE_AI = {2030: (0.35, 0.50), 2050: (0.60, 0.80)}
 # individual source estimates (mid), from lambda_anchor_table.csv
 SRC_GARTNER = {2025: 0.208, 2030: 0.441}
 SRC_EDNA = {2025: 0.169, 2030: 0.425}  # IEA-4E/EDNA mid
 
+def model_components(years):
+    # 与分析程序一致，分别对推理和训练分量作四锚点线性插值。
+    inf = np.interp(years, ANCHOR_YEARS, [LAM_INF[y] for y in ANCHOR_YEARS])
+    train = np.interp(years, ANCHOR_YEARS, [LAM_TRAIN[y] for y in ANCHOR_YEARS])
+    total = inf + train
+    return inf, train, total, inf / total
+
 
 def panel_a(ax, fit):
     yrs = np.linspace(2024, 2050, 400)
     lam = lambda_ai(yrs, fit)
-    ax.plot(yrs, lam, color=C_AI, lw=1.9, zorder=4, label=r"$\lambda_{\mathrm{AI}}$ logistic fit")
+    ax.plot(yrs, lam, color=C_AI, lw=1.9, zorder=4, label="Approximate logistic fit")
 
     # source-range uncertainty as vertical error bars at 2030 / 2050
     for y, (lo, hi) in RANGE_AI.items():
@@ -97,11 +101,11 @@ def panel_a(ax, fit):
         ax.errorbar(y, mid, yerr=[[mid - lo], [hi - mid]], fmt="none",
                     ecolor=C_AI, elinewidth=1.4, capsize=3.5, capthick=1.4, zorder=5)
 
-    # anchor mid-points (2025/2030/2050)
+    # 四个采用的情景锚点，与分量输入一致。
     am_x = ANCHOR_YEARS
     am_y = [LAM_AI[y] for y in ANCHOR_YEARS]
     ax.scatter(am_x, am_y, s=42, color=C_AI, edgecolor="white", linewidth=1.0,
-               zorder=6, label="ensemble mid (anchor)")
+               zorder=6, label="Adopted scenario anchors")
     for y in ANCHOR_YEARS:
         ax.annotate(f"{LAM_AI[y]:.2f}", (y, LAM_AI[y]), xytext=(0, 8),
                     textcoords="offset points", ha="center", va="bottom",
@@ -127,11 +131,9 @@ def panel_a(ax, fit):
 
 
 def panel_b(ax, fit):
-    yrs = np.linspace(2024, 2050, 400)
+    yrs = np.unique(np.r_[np.linspace(2024, 2050, 400), ANCHOR_YEARS])
     # interpolate the anchor splits across years (monotone-ish, anchor-consistent)
-    ax_yr = ANCHOR_YEARS
-    inf = np.interp(yrs, ax_yr, [LAM_INF[y] for y in ax_yr])
-    train = np.interp(yrs, ax_yr, [LAM_TRAIN[y] for y in ax_yr])
+    inf, train, total, finf = model_components(yrs)
 
     # stacked areas: training baseload at bottom, inference on top (sum = lambda_AI)
     ax.fill_between(yrs, 0, train, color=C_TRAIN, alpha=0.85, lw=0,
@@ -160,7 +162,6 @@ def panel_b(ax, fit):
     ax2.spines["top"].set_visible(False)
     ax2.spines["right"].set_visible(True)
     ax2.spines["right"].set_color(C_FINF)
-    finf = np.interp(yrs, ax_yr, [F_INF[y] for y in ax_yr])
     ln_finf, = ax2.plot(yrs, finf, color=C_FINF, lw=1.5, ls="--", zorder=5,
                         label=r"$f_{\mathrm{inf}}$ (inference fraction)")
     ax2.scatter(ANCHOR_YEARS, [F_INF[y] for y in ANCHOR_YEARS], s=22,
@@ -184,8 +185,12 @@ def panel_b(ax, fit):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output-dir", type=Path, default=FIG)
+    args = parser.parse_args()
+    args.output_dir.mkdir(parents=True, exist_ok=True)
     set_style(8.5)
-    fit, _summ = load()
+    fit = load()
     fig, (axa, axb) = plt.subplots(1, 2, figsize=(7.0, 3.0))
     panel_a(axa, fit)
     panel_b(axb, fit)
@@ -197,10 +202,22 @@ def main():
 
     fig.tight_layout(w_pad=2.4)
     for ext in (".png", ".pdf"):
-        out = FIG / f"figS1_lambda_trajectory{ext}"
+        out = args.output_dir / f"figS1_lambda_trajectory{ext}"
         fig.savefig(out, bbox_inches="tight", dpi=300)
         print(f"wrote {out}  ({out.stat().st_size/1024:.1f} KB)")
     plt.close(fig)
+    years = np.unique(np.r_[np.linspace(2024, 2050, 400), ANCHOR_YEARS])
+    inf, train, total, finf = model_components(years)
+    with (args.output_dir / "figS1_plot_data.csv").open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.writer(stream)
+        writer.writerow(["year", "lambda_inf", "lambda_train", "lambda_AI", "f_inf", "approximate_logistic_fit"])
+        writer.writerows(zip(years, inf, train, total, finf, lambda_ai(years, fit)))
+    ai, at, total_a, fraction = model_components(np.array(ANCHOR_YEARS))
+    assert np.allclose(total_a, [0.20, 0.44, 0.68, 0.70], rtol=0, atol=1e-12)
+    assert np.allclose(fraction, [0.65, 0.70, 0.75, 0.80], rtol=0, atol=1e-12)
+    record = {"anchor_years": ANCHOR_YEARS, "lambda_inf": ai.tolist(), "lambda_train": at.tolist(), "lambda_AI": total_a.tolist(), "f_inf": fraction.tolist(), "2040_basis": "adopted intermediate scenario anchor from the analysis code", "interpolation": "piecewise linear separately for inference and training", "logistic_fit_used_as_model_input": False, "optimization_run": False}
+    (args.output_dir / "figS1_validation.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
+    print(json.dumps(record))
 
 
 if __name__ == "__main__":
